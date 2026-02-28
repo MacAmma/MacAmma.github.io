@@ -1,6 +1,6 @@
 ---
 title: ""
-image: "Ahortor_Mcbeth_profile.jpg"
+image: ""
 about:
   id: hero-heading
   image-shape: rectangle
