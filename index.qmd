@@ -1,76 +1,257 @@
 ---
-title: "wedding"
-image: ""
-about:
-  id: hero-heading
-  image-shape: rectangle
-  image-width: 20em
-  template: trestles
-  links:
-    - icon: envelope-at
-      text: Email
-      href: mailto:macbethahortor@gmail.com
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/mcbethahortor/
-    - icon: github
-      text: Github
-      href: https://github.com/Mcbeth-Ahortor
-    
+title: ""
+format:
+  html:
+    theme: none
+    toc: false
+    embed-resources: true
 ---
 
-```{=html}
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
 
-    <style>
-        .container {
-            border: 2px solid black;
-            padding: 10px;
-            width: fit-content;
-            animation: move 5s infinite alternate;
-        }
-        .verylarge {
-            font-size: 48px;
-            font-weight: bold;
-            color: #001a2c; /* Change this to any color you prefer */
-            margin-bottom: 5px; /* Adjust this value as needed */
-        }
-        .smallgap {
-            margin-top: 0; /* Remove top margin */
-            color: #001a2c;
-            font-weight: bold;
-        }
-        @keyframes move {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(100px); }
-        }
-    </style>
-<div class="container">    
-    <p class="verylarge">Mcbeth Ahortor</p>
-    <p class="smallgap">Statistics PhD student || Department of Mathematical Sciences <br> Montana State University-Bozeman</p>
-</div>
+<style>
 
- <div id="bio-section">
-  <div id="hero-heading">
-    <p>
-      Macbeth Ahortor, a Ghanaian scholar who earned his Bachelor’s degree in Actuarial Science from Kwame Nkrumah University of Science and Technology (KNUST) in 2019. He continued his academic journey at Montana State University, where he completed a Master of Science in Statistics in 2023. Currently, he is pursuing a PhD in Statistics, focusing on high-dimensional statistical inference within multiple hypothesis testing frameworks and mixed effects modeling. Macbeth is a soccer enthusiast who enjoys playing and watching soccer.
-    </p>
+/* ===============================
+   GLOBAL STYLING
+=================================*/
 
-    <p>
-      <strong>Office:</strong>
-      <br>
-      2-226 Wilson Hall   
-      <br>
-      Department of Mathematical Sciences  
-      <br>
-      Montana State University  
-      <br>
-      Bozeman, MT 59717-2400
-    </p>
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #fdf8f5;
+  color: #2c2c2c;
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+}
+
+/* ===============================
+   HERO SECTION
+=================================*/
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+              url("https://images.unsplash.com/photo-1519741497674-611481863552") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content {
+  animation: fadeIn 2s ease forwards;
+  opacity: 0;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  letter-spacing: 2px;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+}
+
+/* ===============================
+   OUR STORY SECTION
+=================================*/
+
+.story-section {
+  padding: 100px 15%;
+  text-align: center;
+  position: relative;
+}
+
+.story-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #b76e79;
+}
+
+/* Timeline animation */
+
+.timeline {
+  position: relative;
+  margin-top: 50px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  background: #b76e79;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  width: 50%;
+  padding: 20px 40px;
+  position: relative;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 1s ease;
+}
+
+.timeline-item.left {
+  left: 0;
+  text-align: right;
+}
+
+.timeline-item.right {
+  left: 50%;
+}
+
+.timeline-item.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.timeline-item::after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background: #b76e79;
+  border-radius: 50%;
+  top: 30px;
+  right: -9px;
+}
+
+.timeline-item.right::after {
+  left: -9px;
+}
+
+/* ===============================
+   FOOTER
+=================================*/
+
+footer {
+  text-align: center;
+  padding: 40px;
+  background: #b76e79;
+  color: white;
+}
+
+/* ===============================
+   ANIMATIONS
+=================================*/
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+@media(max-width: 900px) {
+  .timeline::before {
+    left: 20px;
+  }
+
+  .timeline-item {
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 20px;
+    text-align: left !important;
+  }
+
+  .timeline-item.right {
+    left: 0;
+  }
+
+  .timeline-item::after {
+    left: 11px !important;
+  }
+}
+
+</style>
+
+<!-- ===============================
+     HERO
+================================= -->
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Emma & James</h1>
+    <p>Our Story Begins</p>
   </div>
-</div>
+</section>
 
+<!-- ===============================
+     OUR STORY
+================================= -->
 
+<section class="story-section">
 
-```
+  <h2>Our Story</h2>
 
+  <div class="timeline">
 
+    <div class="timeline-item left">
+      <h3>2018 — First Meeting</h3>
+      <p>
+        What started as a casual conversation turned into hours of laughter.
+        Neither of us knew that this moment would change everything.
+      </p>
+    </div>
+
+    <div class="timeline-item right">
+      <h3>2020 — Falling in Love</h3>
+      <p>
+        Through adventures, travels, and quiet nights,
+        we discovered that love feels like home.
+      </p>
+    </div>
+
+    <div class="timeline-item left">
+      <h3>2024 — The Proposal</h3>
+      <p>
+        Under a golden sunset, with hearts racing,
+        we said yes to forever.
+      </p>
+    </div>
+
+    <div class="timeline-item right">
+      <h3>2026 — Our Wedding</h3>
+      <p>
+        Now we begin our greatest adventure —
+        surrounded by the people we love most.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<footer>
+  With love, Emma & James 💕
+</footer>
+
+<script>
+
+// Scroll animation reveal
+const items = document.querySelectorAll(".timeline-item");
+
+function revealOnScroll() {
+  const triggerBottom = window.innerHeight * 0.85;
+
+  items.forEach(item => {
+    const boxTop = item.getBoundingClientRect().top;
+
+    if(boxTop < triggerBottom) {
+      item.classList.add("show");
+    }
+  });
+}
+
+window.addEventListener("scroll", revealOnScroll);
+revealOnScroll();
+
+</script>
