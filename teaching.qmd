@@ -1,0 +1,60 @@
+---
+title: "Teaching"
+id: details
+links:
+  - icon: envelope-at
+    text: Gmail
+    href: mailto:macbethahortor@gmail.com
+  - icon: linkedin
+    text: LinkedIn
+    href: https://www.linkedin.com/in/mcbethahortor/
+  - icon: github
+    text: Github
+    href: https://github.com/Mcbeth-Ahortor
+---     
+
+::: {#details}
+
+# Instructor
+
+---
+
+#### Montana State University Bozeman  
+Fall 2022 - Spring 2023  
+MATH 121: College Algebra
+ 
+---
+
+#### Montana State University Bozeman  
+Fall 2021 - Summer 2022  
+STAT 216: Introductory Probability and Statistics
+
+---
+
+
+
+# Teaching Assistant
+
+---
+
+#### Montana State University Bozeman  
+Fall 2023 - Spring 2024  
+MATH 221: Introduction to Linear Algebra
+
+---
+
+#### Kwame Nkrumah University of Science and Technology  
+- Fall 2019  
+  ACTS 463: Loss Models
+
+- Spring 2020  
+ACTS 461: Basic Pension Maths  
+ACTS 364: Life Contingencies
+
+---
+
+:::
+
+
+
+
