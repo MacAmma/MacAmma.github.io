@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "new"
 image: ""
 about:
   id: hero-heading
