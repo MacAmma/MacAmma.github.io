@@ -34,7 +34,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -152,39 +151,34 @@ We’re really just grateful to have you in our lives. That alone means everythi
 </div>
 
 
- <section class="registry-section">
-  <h2 class="anchored">Wedding Gift</h2>
-  
-  <a href="https://paypal.me/nanamafobi" target="_blank" class="paypal-button">
-     🎁 Send a Gift
-  </a>
-  
+<section class="registry-section">
 
-    <a href="https://paypal.me/nanamafobi" target="_blank" class="paypal-button">
-     🎁 Send a Gift
-  </a>
- </section>
+  <h2>Wedding Gift</h2>
 
- <section class="registry-section">
-  <h2 class="anchored">Wedding Gift</h2>
+  <div class="gift-buttons">
 
-    <a href="https://paypal.me/nanamafobi" target="_blank" class="paypal-button">
-     💵 Send a Gift
-  </a>
-  </section>
+    <a href="https://paypal.me/nanamafobi" target="_blank" class="gift-button paypal">
+       PayPal
+    </a>
+
+    <a href="https://cash.app/$YOURCASHTAG" target="_blank" class="gift-button cashapp">
+       Cash App
+    </a>
+
+    <a href="https://venmo.com/YOURVENMO" target="_blank" class="gift-button venmo">
+       Venmo
+    </a>
+
+  </div>
+
+</section>
+
 
 
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
