@@ -1,0 +1,53 @@
+---
+title: "The Data Behind US"
+id: hero-heading
+links:
+  - icon: envelope-at
+    text: Gmail
+    href: mailto:macbethahortor@gmail.com
+  - icon: linkedin
+    text: LinkedIn
+    href: https://www.linkedin.com/in/mcbethahortor/
+  - icon: github
+    text: Github
+    href: https://github.com/mahortor
+---
+
+  
+```{=html}
+
+ <div id="bio-section">
+  <div id="hero-heading">
+<p>
+ Mac and Sarah met in school. The initial conditions were simple. Same campus. Same discipline. One TA. One student. Zero expectations. At first, it was just that. A normal friendship that grew out of shared academic space. Nothing dramatic. No hidden variables. Just respect and an easy connection.<p>
+ 
+ <p>
+Then life introduced a change in location. Mac moved to the United States for graduate school and strongly recommended that Sarah apply as well. For the record, this recommendation was not random. It was strategic. Sarah got admitted. Same school. Same department. At this point, the sample size of shared experiences increased substantially. Study sessions became frequent. So did conversations about faith, family, and the kind of future they hoped for. The correlation was positive and getting stronger. The model was clearly shifting.
+<p>
+
+<p>
+What Sarah did not know was that Mac had been running a long-term analysis for quite some time. Quiet observation. Patient persistence. No premature conclusions. Eventually, the hypothesis was tested.
+<p>
+
+<p>
+Mac asked.
+<p>
+
+<p>
+Sarah said yes.
+<p>
+
+<p>
+My statistically significant other!
+<p>
+
+<p>
+Since then, we have been writing a story neither of us saw coming, but both of us now can’t imagine living without. The rest of the data will be collected over a lifetime.
+</p>
+
+  </div>
+</div>
+
+```
+
+

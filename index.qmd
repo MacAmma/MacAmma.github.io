@@ -9,10 +9,7 @@ about:
   links:
     - icon: envelope-at
       text: Email
-      href: mailto:macbethahortor@gmail.com
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/mcbethahortor/
+      href: mailto:macfobi@gmail.com
     - icon: github
       text: Github
       href: https://github.com/Mcbeth-Ahortor
@@ -46,26 +43,16 @@ about:
     </style>
 <div class="container">    
     <p class="verylarge">Mcbeth and Sarah</p>
-    <p class="smallgap">Statistics PhD student || Department of Mathematical Sciences <br> Montana State University-Bozeman</p>
+    <p class="smallgap">Our Wedding Website <br>Bozeman, Montana, USA</p>
 </div>
 
  <div id="bio-section">
   <div id="hero-heading">
     <p>
-      Macbeth Ahortor, a Ghanaian scholar who earned his Bachelor’s degree in Actuarial Science from Kwame Nkrumah University of Science and Technology (KNUST) in 2019. He continued his academic journey at Montana State University, where he completed a Master of Science in Statistics in 2023. Currently, he is pursuing a PhD in Statistics, focusing on high-dimensional statistical inference within multiple hypothesis testing frameworks and mixed effects modeling. Macbeth is a soccer enthusiast who enjoys playing and watching soccer.
+      May is a special month for us. We both celebrate our birthdays in May, and now we get to celebrate our marriage in May too. It feels like the month was always meant to be ours.<br> <br>
+We will be having our traditional wedding ceremony in Kumasi, Ghana on May 22, 2026. It means so much to us to celebrate this day at home, where we come from and where our traditions mean the most. Even though it will be in Ghana, we carry the love and support of our friends and loved ones with us everywhere.
     </p>
 
-    <p>
-      <strong>Office:</strong>
-      <br>
-      2-226 Wilson Hall   
-      <br>
-      Department of Mathematical Sciences  
-      <br>
-      Montana State University  
-      <br>
-      Bozeman, MT 59717-2400
-    </p>
   </div>
 </div>
 

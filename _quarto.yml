@@ -3,16 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "Mcbeth Ahortor"
+  title: "Mcbeth&Sarah"
 
   page-footer:
-    right: "&copy; Macbeth Ahortor | 2024"
+    right: "&copy; MacAmma | 2026"
     center: |
-          <a href="mailto:macbethahortor@gmail.com" class="footer-button">
+          <a href="mailto:macfobi@gmail.com" class="footer-button">
             <i class="bi bi-envelope-at"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/mcbethahortor" target="_blank" class="footer-button">
-            <i class="bi bi-linkedin"></i>
           </a>
           <a href="https://github.com/mahortor" target="_blank" class="footer-button">
             <i class="bi bi-github"></i>
@@ -27,8 +24,8 @@ website:
       - href: index.qmd
         text: Home
 
-      - href: background.qmd
-        text: Background
+      - href: Our Story.qmd
+        text: Our Story
         
       - href: teaching.qmd
         text: Teaching
