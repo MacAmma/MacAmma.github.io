@@ -24,7 +24,7 @@ website:
       - href: index.qmd
         text: Home
 
-      - href: Our Story.qmd
+      - href: "Our Story.qmd"
         text: Our Story
         
       - href: teaching.qmd
