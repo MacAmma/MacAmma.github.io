@@ -21,7 +21,7 @@ website:
     pinned: false
     logo: Ahortor_Mcbeth_profile.jpg
     right:
-      - href: index.qmd
+      - href: index.qmd#Memories
         text: Home
 
       - href: "Our Story.qmd"
