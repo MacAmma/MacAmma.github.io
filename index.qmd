@@ -1,6 +1,6 @@
 ---
 title: "Our wedding"
-image: ""
+image: "idaho"
 about:
   id: hero-heading
   image-shape: rectangle

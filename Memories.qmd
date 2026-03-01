@@ -16,7 +16,14 @@ links:
 ```{=html}
 
  <div id="bio-section">
-  <div id="hero-heading">
+ 
+  <div class="photo-layout">
+    <div class="left-photo">
+      <img src="denver1.jpg" alt="photo1" />
+    </div>
+ </div>
+  <div class="bio-text">
+
 <p>
 This was February 14, the day Mac finally decided to stop analyzing and just ask Sarah to be his wife. It was simple, intimate and full of heart. And she said yesss!!! The whole day felt light and joyful. It reminded us how far we have come and how much we have grown together.
 </p>
@@ -31,7 +38,14 @@ This was February 14, the day Mac finally decided to stop analyzing and just ask
 ```{=html}
 
  <div id="bio-section">
-  <div id="hero-heading">
+ 
+  <div class="photo-layout">
+    <div class="left-photo">
+      <img src="commencement.jpg" alt="photo1" />
+    </div>
+ </div>
+  <div class="bio-text">
+
 <p>
 Here we are at our roommates’ commencement in May 2025. We were so happy and proud of them, but also a little sad knowing they would soon be leaving for different states. It was one of those moments filled with celebration and quiet goodbyes.
 <p>
@@ -45,7 +59,14 @@ Here we are at our roommates’ commencement in May 2025. We were so happy and p
 ```{=html}
 
  <div id="bio-section">
-  <div id="hero-heading">
+ 
+  <div class="photo-layout">
+    <div class="left-photo">
+      <img src="denver4.jpg" alt="photo1" />
+    </div>
+ </div>
+  <div class="bio-text">
+
 <p>
 This photo was taken on the Missouri River at the Gates of the Mountains in Helena, Montana. We went there with the African Society at MSU for a boat ride and to take in the beautiful mountain views. It was such a peaceful day, just being out on the water and enjoying the scenery together.
 <p>
@@ -58,7 +79,13 @@ This photo was taken on the Missouri River at the Gates of the Mountains in Hele
 ```{=html}
 
  <div id="bio-section">
-  <div id="hero-heading">
+ 
+  <div class="photo-layout">
+    <div class="left-photo">
+      <img src="nash.jpg" alt="photo1" />
+    </div>
+ </div>
+  <div class="bio-text">
 <p>
 We were in Nashville, Tennessee for a conference, and one day we decided to step away from the meetings and explore the city. This photo was taken on a hotel rooftop with the Nashville skyline behind us. It was a nice break from the busy schedule and a chance to just enjoy the moment together.
 <p>
@@ -72,7 +99,23 @@ We were in Nashville, Tennessee for a conference, and one day we decided to step
 ```{=html}
 
  <div id="bio-section">
-  <div id="hero-heading">
+ 
+ <div class="photo-layout">
+    <div class="left-photo">
+      <img src="denver1.jpg" alt="photo1" />
+    </div>
+
+    <div class="right-photos">
+      <img src="denver2.jpg" alt="photo2" />
+    </div>
+    
+       <div class="right-photos">
+      <img src="denver3.jpg" alt="photo2" />
+    </div>
+
+  </div>
+ 
+  <div class="bio-text">
 <p>
 Our visit to Denver was nothing short of memorable. We had a long nine hour drive from Bozeman to Denver, and along the way we shared some deep and honest conversations about ourselves and where we were headed. The road felt long, but the time together made it special. In Denver, we visited the Museum of Illusions and explored a few other spots around the city. We ended the day at a concert hosted by Davido at the theater. It was one of those trips we will always smile about.
 <p>
@@ -85,7 +128,14 @@ Our visit to Denver was nothing short of memorable. We had a long nine hour driv
 ```{=html}
 
  <div id="bio-section">
-  <div id="hero-heading">
+ 
+  <div class="photo-layout">
+    <div class="left-photo">
+      <img src="utah.jpg" alt="photo1" />
+    </div>
+ </div>
+  <div class="bio-text">
+
 <p>
 We absolutely loved Salt Lake City. It has the beauty of the mountains and still feels like real city living. This photo was taken at the Utah State Capitol with the views behind us. We spent time at City Creek Center and later explored the nightlife in Salt Lake and Murray.
 <p>
@@ -99,7 +149,14 @@ We absolutely loved Salt Lake City. It has the beauty of the mountains and still
 ```{=html}
 
  <div id="bio-section">
-  <div id="hero-heading">
+ 
+  <div class="photo-layout">
+    <div class="left-photo">
+      <img src="idaho.jpg" alt="photo1" />
+    </div>
+ </div>
+  <div class="bio-text">
+
 <p>
 This is us somewhere in Idaho. We may not remember the exact spot, but we definitely remember the good time.
 <p>

@@ -19,9 +19,9 @@ website:
 
   navbar:
     pinned: false
-    logo: Ahortor_Mcbeth_profile.jpg
+    logo: Idaho.jpg
     right:
-      - href: index.qmd#Memories
+      - href: index.qmd
         text: Home
 
       - href: "Our Story.qmd"
@@ -36,10 +36,10 @@ website:
 format:
   html: 
     fontsize: 1.0em
-    mainfont: century gothic
+    mainfont: segoe script
     fontcolor: "white" 
     theme: 
-      - lux
+      - cerulean
       - theme.scss
     toc: false
     code-link: true
