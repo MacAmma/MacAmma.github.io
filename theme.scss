@@ -105,38 +105,51 @@ $gray-800: #66707a; // Optional gray color for borders
 .registry-section h2 {
   font-size: 2.8rem;
   color: var(--terracotta);
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  letter-spacing: 2px;
 }
 
-.registry-section p {
-  max-width: 600px;
-  margin: 0 auto 40px;
-  line-height: 1.6;
-  font-size: 1.1rem;
+/* Button container */
+
+.gift-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
-/* PayPal Button */
+/* Base button style */
 
 .gift-button {
   display: inline-block;
-  margin-top: 50px;
-  padding: 18px 60px;
-  background: var(--terracotta);
-  color: white;
-  text-decoration: none;
+  padding: 18px 55px;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.2rem;
-  letter-spacing: 2px;
+  font-size: 1.1rem;
   text-transform: uppercase;
-  border: 2px solid var(--terracotta);
-  transition: all 0.35s ease;
+  letter-spacing: 2px;
+  text-decoration: none;
+  border: none;
+  transition: all 0.3s ease;
+  color: white;
 }
+
+/* Individual button colors */
+
+.paypal {
+  background: #c07a6a; /* muted terracotta */
+}
+
+.cashapp {
+  background: #8a9a87; /* sage green */
+}
+
+.venmo {
+  background: #2e2e2e; /* dark neutral */
+}
+
+/* Hover effect */
 
 .gift-button:hover {
-  background: transparent;
-  color: var(--terracotta);
-  border: 2px solid var(--terracotta);
+  transform: translateY(-4px);
+  opacity: 0.9;
 }
-
-
-
