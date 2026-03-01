@@ -42,13 +42,13 @@ We’re really just grateful to have you in our lives. That alone means everythi
        PayPal
     </a>
 
-    <a href="https://cash.app/$YOURCASHTAG"
+    <a href="https://cash.app/$nanamafobi"
        target="_blank"
        class="gift-button cashapp">
        Cash App
     </a>
 
-    <a href="https://venmo.com/YOURVENMO"
+    <a href="https://venmo.com/nanamafobi"
        target="_blank"
        class="gift-button venmo">
        Venmo
