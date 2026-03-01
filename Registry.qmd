@@ -41,6 +41,12 @@ We’re really just grateful to have you in our lives. That alone means everythi
        class="gift-button paypal">
        PayPal
     </a>
+    
+      <a href="https://venmo.com/nanamafobi"
+       target="_blank"
+       class="gift-button venmo">
+       Venmo
+    </a>
 
     <a href="https://cash.app/$nanamafobi"
        target="_blank"
@@ -48,11 +54,7 @@ We’re really just grateful to have you in our lives. That alone means everythi
        Cash App
     </a>
 
-    <a href="https://venmo.com/nanamafobi"
-       target="_blank"
-       class="gift-button venmo">
-       Venmo
-    </a>
+
 
   </div>
 
