@@ -45,7 +45,7 @@ about:
         }
     </style>
 <div class="container">    
-    <p class="verylarge">Mcbeth Ahortor</p>
+    <p class="verylarge">Mcbeth and Sarah</p>
     <p class="smallgap">Statistics PhD student || Department of Mathematical Sciences <br> Montana State University-Bozeman</p>
 </div>
 
