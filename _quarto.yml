@@ -27,11 +27,11 @@ website:
       - href: "Our Story.qmd"
         text: Our Story
         
-      - href: teaching.qmd
-        text: Teaching
+      - href: Memories.qmd
+        text: Memories
         
-      - href: resume.qmd
-        text: Resume
+      - href: Registry.qmd
+        text: Registry
 
 format:
   html: 
