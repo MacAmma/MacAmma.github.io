@@ -1,5 +1,6 @@
 ---
 title: "Our wedding"
+page-layout: custom
 image: "idaho"
 about:
   id: hero-heading
@@ -18,46 +19,90 @@ about:
 
 ```{=html}
 
-    <style>
-        .container {
-            border: 2px solid black;
-            padding: 10px;
-            width: fit-content;
-            animation: move 5s infinite alternate;
-        }
-        .verylarge {
-            font-size: 48px;
-            font-weight: bold;
-            color: #001a2c; /* Change this to any color you prefer */
-            margin-bottom: 5px; /* Adjust this value as needed */
-        }
-        .smallgap {
-            margin-top: 0; /* Remove top margin */
-            color: #001a2c;
-            font-weight: bold;
-        }
-        @keyframes move {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(100px); }
-        }
-    </style>
-<div class="container">    
-    <p class="verylarge">Mcbeth and Sarah</p>
-    <p class="smallgap">Our Wedding Website <br>Bozeman, Montana, USA</p>
-</div>
+<section id="hero" class="hero">
+  <div class="hero-overlay">
+    <h1 data-aos="fade-up">Macbeth & Sarah</h1>
+    <p data-aos="fade-up" data-aos-delay="200">May 26, 2026</p>
+  </div>
+</section>
 
- <div id="bio-section">
-  <div id="hero-heading">
-    <p>
-      May is a special month for us. We both celebrate our birthdays in May, and now we get to celebrate our marriage in May too. It feels like the month was always meant to be ours.<br> <br>
-We will be having our traditional wedding ceremony in Kumasi, Ghana on May 22, 2026. It means so much to us to celebrate this day at home, where we come from and where our traditions mean the most. Even though it will be in Ghana, we carry the love and support of our friends and loved ones with us everywhere.
+<section id="story" class="section">
+  <div class="container two-column">
+    <div class="image-placeholder" data-aos="fade-right"></div>
+    <div data-aos="fade-left">
+      <h2>Our Story</h2>
+      <p>
+        Placeholder story text goes here. This will be replaced with your real story later.
+        Keep it emotional and simple.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="details" class="section light-bg">
+  <div class="container">
+    <h2 data-aos="fade-up">Wedding Details</h2>
+    <div class="cards">
+      <div class="card" data-aos="fade-up" data-aos-delay="100">
+        <h3>Ceremony</h3>
+        <p>3:00 PM<br>Placeholder Venue</p>
+      </div>
+      <div class="card" data-aos="fade-up" data-aos-delay="200">
+        <h3>Reception</h3>
+        <p>6:00 PM<br>Placeholder Location</p>
+      </div>
+      <div class="card" data-aos="fade-up" data-aos-delay="300">
+        <h3>Location</h3>
+        <p>City, Country</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="section">
+  <div class="container">
+    <h2 data-aos="fade-up">Gallery</h2>
+    <div class="slideshow" data-aos="fade-up">
+      <div class="slide active"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+```
+
+
+
+```{=html}
+<section id="registry" class="section light-bg">
+  <div class="container center">
+    <h2 data-aos="fade-up">Registry</h2>
+    <p data-aos="fade-up" data-aos-delay="100">
+      If you would like to bless us as we begin this next chapter,
+      you may do so below.
     </p>
 
+    <div class="registry-buttons" data-aos="fade-up" data-aos-delay="200">
+      <a href="https://paypal.me/yourlink" target="_blank" class="wedding-btn">
+        PayPal
+      </a>
+
+      <a href="https://cash.app/$yourlink" target="_blank" class="wedding-btn">
+        CashApp
+      </a>
+
+      <a href="https://venmo.com/yourlink" target="_blank" class="wedding-btn">
+        Venmo
+      </a>
+    </div>
   </div>
-</div>
-
-
-
+</section>
 ```
 
 

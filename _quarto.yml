@@ -3,47 +3,36 @@ project:
   output-dir: docs
 
 website:
-  title: "Mcbeth&Sarah"
-
-  page-footer:
-    right: "&copy; MacAmma | 2026"
-    center: |
-          <a href="mailto:macfobi@gmail.com" class="footer-button">
-            <i class="bi bi-envelope-at"></i>
-          </a>
-          <a href="https://github.com/mahortor" target="_blank" class="footer-button">
-            <i class="bi bi-github"></i>
-          </a>
-    background: light
-    border: false
-
+  title: "Macbeth & Sarah"
+  page-navigation: false
+  search: false
   navbar:
-    pinned: false
-    logo: Idaho.jpg
-    right:
-      - href: index.qmd
-        text: Home
-
-      - href: "Our Story.qmd"
-        text: Our Story
-        
-      - href: Memories.qmd
-        text: Memories
-        
-      - href: Registry.qmd
-        text: Registry
+    pinned: true
+    left:
+      - text: "Home"
+        href: "#hero"
+      - text: "Our Story"
+        href: "#story"
+      - text: "Details"
+        href: "#details"
+      - text: "Gallery"
+        href: "#gallery"
+      - text: "Registry"
+        href: "#registry"
 
 format:
-  html: 
-    fontsize: 1.0em
-    mainfont: segoe script
-    fontcolor: "white" 
-    theme: 
-      - cerulean
-      - theme.scss
-    toc: false
-    code-link: true
-    anchor-sections: false
-    fig-cap-location: margin
-    reference-location: margin
-    footnotes-hover: true
+  html:
+    theme: flatly
+    css: styles.css
+    include-in-header: 
+      - text: |
+          <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    include-after-body:
+      - text: |
+          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+          <script>
+            AOS.init({
+              duration: 600,
+              once: false
+            });
+          </script>
