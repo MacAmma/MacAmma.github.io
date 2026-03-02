@@ -43,8 +43,8 @@ h1, h2, h3 {
 /* ===== HERO SECTION ===== */
 
 .hero {
-  height: 90vh;
-  width: 90%;
+  height: 70vh;
+  width: 70%;
   margin: 40px auto;
   border-radius: 25px;
   overflow: hidden;
@@ -78,8 +78,8 @@ h1, h2, h3 {
 }
 
 .hero h1 {
-  font-size: clamp(4rem, 7vw, 6.5rem);
-  letter-spacing: 2px;
+  font-size: clamp(4rem, 7vw, 9.5rem);
+  letter-spacing: 1px;
   margin-bottom: 1rem;
 }
 
