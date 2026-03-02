@@ -244,22 +244,13 @@ main.content {
   position: absolute;
   top: -60px;
   left: 0;
-  width: 55%;
-  height: 500px;
+  width: 60%;
+  height: 850px;
   background: url("assets/images/ASA.jpg") center/cover no-repeat;
   border: 15px solid #e8dccc;
   z-index: 1;
 }
 
-/* Foreground card */
-.story-card {
-  position: relative;
-  background: #f1ebdf;
-  padding: 80px 60px;
-  margin-left: 30%;
-  z-index: 2;
-  box-shadow: 0 20px 50px rgba(0,0,0,0.08);
-}
 
 /* Title */
 .story-card h2 {
@@ -275,7 +266,7 @@ main.content {
   position: relative;
   background: #f1ebdf;
   padding: 70px 80px;
-  margin-left: 30%;
+  margin-left: 22%;
   z-index: 2;
   box-shadow: 0 20px 50px rgba(0,0,0,0.08);
 }
@@ -328,26 +319,3 @@ main.content {
   color: white;
 }
 
-@media (max-width: 768px) {
-
-  .story-image {
-    position: relative;
-    width: 100%;
-    height: 300px;
-    border: none;
-    top: 0;
-  }
-
-  .story-card {
-    margin-left: 0;
-    padding: 40px 25px;
-  }
-
-  .story-content {
-    flex-direction: column;
-  }
-
-  .story-divider {
-    display: none;
-  }
-}
