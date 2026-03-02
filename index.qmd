@@ -26,6 +26,12 @@ about:
   </div>
 </section>
 
+
+```
+
+
+
+```{=html}
 <section id="story" class="section">
   <div class="container two-column">
     <div class="image-placeholder" data-aos="fade-right"></div>
@@ -38,7 +44,11 @@ about:
     </div>
   </div>
 </section>
+```
 
+
+
+```{=html}
 <section id="details" class="section light-bg">
   <div class="container">
     <h2 data-aos="fade-up">Wedding Details</h2>
@@ -58,7 +68,12 @@ about:
     </div>
   </div>
 </section>
+```
 
+
+
+
+```{=html}
 <section id="gallery" class="section">
   <div class="container">
     <h2 data-aos="fade-up">Gallery</h2>
@@ -69,13 +84,11 @@ about:
     </div>
   </div>
 </section>
-
-
-
-
-
-
 ```
+
+
+
+
 
 
 
@@ -84,20 +97,21 @@ about:
   <div class="container center">
     <h2 data-aos="fade-up">Registry</h2>
     <p data-aos="fade-up" data-aos-delay="100">
-      If you would like to bless us as we begin this next chapter,
-      you may do so below.
+      We’re really just grateful to have you in our lives. That alone means
+      everything to us. But if you would like to add a little something as
+      we begin this next chapter, you can use any of the options below.
     </p>
 
     <div class="registry-buttons" data-aos="fade-up" data-aos-delay="200">
-      <a href="https://paypal.me/yourlink" target="_blank" class="wedding-btn">
+      <a href="https://paypal.me/nanamafobi" target="_blank" class="wedding-btn">
         PayPal
       </a>
 
-      <a href="https://cash.app/$yourlink" target="_blank" class="wedding-btn">
+      <a href="https://cash.app/$nanamafobi" target="_blank" class="wedding-btn">
         CashApp
       </a>
 
-      <a href="https://venmo.com/yourlink" target="_blank" class="wedding-btn">
+      <a href="https://venmo.com/nanamafobi" target="_blank" class="wedding-btn">
         Venmo
       </a>
     </div>

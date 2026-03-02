@@ -7,12 +7,15 @@
   --font-body: "Inter", sans-serif;
 }
 
+/* ===== GLOBAL ===== */
+
 body {
   margin: 0;
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: var(--font-body);
   scroll-behavior: smooth;
+  padding-top: 80px;
 }
 
 h1, h2, h3 {
@@ -20,20 +23,9 @@ h1, h2, h3 {
   letter-spacing: 1px;
 }
 
-.hero {
-  height: 100vh;
-  background: url('https://via.placeholder.com/1600x900') center/cover no-repeat;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero-overlay {
-  background: rgba(0,0,0,0.3);
-  padding: 2rem;
-  text-align: center;
-  color: white;
+.container {
+  max-width: 1100px;
+  margin: auto;
 }
 
 .section {
@@ -44,10 +36,59 @@ h1, h2, h3 {
   background-color: var(--light-section);
 }
 
-.container {
-  max-width: 1100px;
-  margin: auto;
+.center {
+  text-align: center;
 }
+
+/* ===== HERO SECTION ===== */
+
+.hero {
+  height: 90vh;
+  width: 90%;
+  margin: 40px auto;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+
+  background-image: url("assets/images/denver1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.hero-overlay {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem 3rem;
+  border-radius: 20px;
+}
+
+.hero h1 {
+  font-size: clamp(8rem, 7vw, 13rem);
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: clamp(4rem, 5vw, 5rem);
+  letter-spacing: 1px;
+}
+
+/* ===== TWO COLUMN LAYOUT ===== */
 
 .two-column {
   display: flex;
@@ -61,6 +102,8 @@ h1, h2, h3 {
   background: #ddd;
 }
 
+/* ===== CARDS ===== */
+
 .cards {
   display: flex;
   gap: 2rem;
@@ -73,6 +116,8 @@ h1, h2, h3 {
   background: var(--bg-color);
   text-align: center;
 }
+
+/* ===== SLIDESHOW ===== */
 
 .slideshow {
   position: relative;
@@ -93,6 +138,8 @@ h1, h2, h3 {
   opacity: 1;
 }
 
+/* ===== BUTTONS ===== */
+
 .btn {
   padding: 0.8rem 2rem;
   border: 1px solid var(--accent-color);
@@ -106,20 +153,15 @@ h1, h2, h3 {
   color: white;
 }
 
-/* Mobile */
-@media (max-width: 768px) {
-  .two-column {
-    flex-direction: column;
-  }
-
-  .cards {
-    flex-direction: column;
-  }
-
-  .hero h1 {
-    font-size: 2rem;
-  }
+.registry-buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }
+
+/* ===== NAVBAR ===== */
 
 .navbar {
   position: fixed;
@@ -145,11 +187,8 @@ h1, h2, h3 {
   color: var(--accent-color);
 }
 
-body {
-  padding-top: 80px;
-}
+/* ===== REMOVE QUARTO COLUMN LAYOUT ===== */
 
-/* Remove the article column layout cleanly */
 .page-columns {
   grid-template-columns: 1fr !important;
 }
@@ -160,74 +199,26 @@ main.content {
   padding: 0 !important;
 }
 
-/* Remove divider line */
 .page-columns > div:first-child {
   border: none !important;
 }
 
-.center {
-  text-align: center;
+/* ===== MOBILE ===== */
+
+@media (max-width: 768px) {
+
+  .two-column {
+    flex-direction: column;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .hero {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    height: 85vh;
+  }
 }
-
-.registry-buttons {
-  margin-top: 2rem;
-  display: flex;
-  gap: 1.5rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.wedding-btn {
-  padding: 0.8rem 2rem;
-  border: 1px solid var(--accent-color);
-  text-decoration: none;
-  color: var(--text-color);
-  transition: 0.3s ease;
-}
-
-.wedding-btn:hover {
-  background: var(--accent-color);
-  color: white;
-}
-
-.hero {
-  height: 100vh;
-  width: 100%;
-  background-image: url("assets/images/denver1.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.35);
-}
-
-.hero-overlay {
-  position: relative;
-  z-index: 2;
-  text-align: center;
-  color: white;
-}
-
-.hero h1 {
-  font-size: clamp(4.5rem, 8vw, 7rem);
-  letter-spacing: 2px;
-  margin-bottom: 1rem;
-}
-
-.hero p {
-  font-size: clamp(2rem, 3vw, 2.5rem);
-  letter-spacing: 1px;
-}
-
-
-
-
