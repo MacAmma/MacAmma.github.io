@@ -319,3 +319,27 @@ main.content {
   color: white;
 }
 
+
+@media (max-width: 768px) {
+
+  .story-image {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border: none;
+    top: 0;
+  }
+
+  .story-card {
+    margin-left: 0;
+    padding: 40px 25px;
+  }
+
+  .story-content {
+    flex-direction: column;
+  }
+
+  .story-divider {
+    display: none;
+  }
+}
