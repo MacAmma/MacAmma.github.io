@@ -245,7 +245,7 @@ main.content {
 /* ===== OUR STORY SECTION ===== */
 
 .story-section {
-  background: #d2bba4; /* soft beige tone */
+  background: transparent; /* soft beige tone */
   padding: 120px 20px;
   position: relative;
 }
@@ -258,14 +258,12 @@ main.content {
 
 /* Background image layer */
 .story-image {
-  position: absolute;
-  top: -60px;
-  left: 0;
-  width: 60%;
-  height: 850px;
-  background: url("assets/images/ASA.jpg") center/cover no-repeat;
-  border: 15px solid #e8dccc;
-  z-index: 1;
+  height: 60vh;
+  width: 85%;
+  margin-left: 3rem;
+  background-image: url("assets/images/ASA.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 
@@ -294,6 +292,16 @@ main.content {
   font-size: 2.5rem;
   margin-bottom: 40px;
   color: #6f5a4c;
+}
+
+.story-card {
+  background: #f5efe6;
+  padding: 2rem;
+  max-width: 700px;
+  margin: -120px auto -60px auto;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+  position: relative;
+  z-index: 3;
 }
 
 .story-text {
