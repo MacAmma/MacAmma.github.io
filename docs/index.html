@@ -204,7 +204,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </section>
-<section id="registry" class="section light-bg">
+<section id="registry" class="section light-bg" data-navcolor="#9CAF88">
   <div class="container center">
     <h2 data-aos="fade-up">Registry</h2>
     <p data-aos="fade-up" data-aos-delay="100">
@@ -638,28 +638,56 @@ ul.task-list li input[type="checkbox"] {
 <script>
   document.addEventListener("DOMContentLoaded", function () {
 
+    /* =========================
+       STORY SLIDER
+    ========================== */
     const slides = document.querySelectorAll(".story-slide");
     const nextBtn = document.querySelector(".story-next");
     const prevBtn = document.querySelector(".story-prev");
 
-    if (!slides.length) return;
+    if (slides.length && nextBtn && prevBtn) {
 
-    let current = 0;
+      let current = 0;
 
-    function showSlide(index) {
-      slides.forEach(slide => slide.classList.remove("active"));
-      slides[index].classList.add("active");
+      function showSlide(index) {
+        slides.forEach(slide => slide.classList.remove("active"));
+        slides[index].classList.add("active");
+      }
+
+      nextBtn.addEventListener("click", function () {
+        current = (current + 1) % slides.length;
+        showSlide(current);
+      });
+
+      prevBtn.addEventListener("click", function () {
+        current = (current - 1 + slides.length) % slides.length;
+        showSlide(current);
+      });
     }
 
-    nextBtn.addEventListener("click", function () {
-      current = (current + 1) % slides.length;
-      showSlide(current);
-    });
+    /* =========================
+       NAVBAR COLOR ON SCROLL
+    ========================== */
+    const sections = document.querySelectorAll("section");
+    const navbar = document.querySelector(".navbar");
 
-    prevBtn.addEventListener("click", function () {
-      current = (current - 1 + slides.length) % slides.length;
-      showSlide(current);
-    });
+    function updateNavbarColor() {
+      let scrollPosition = window.scrollY + 120;
+
+      sections.forEach(section => {
+        if (
+          scrollPosition >= section.offsetTop &&
+          scrollPosition < section.offsetTop + section.offsetHeight
+        ) {
+          const color = section.getAttribute("data-navcolor");
+          if (color && navbar) {
+            navbar.style.backgroundColor = color;
+          }
+        }
+      });
+    }
+
+    window.addEventListener("scroll", updateNavbarColor);
 
   });
 </script>
