@@ -13,11 +13,11 @@ website:
         href: "#hero"
       - text: "Our Story"
         href: "#story"
-      - text: "Details"
+      - text: "Celebration"
         href: "#details"
       - text: "Gallery"
         href: "#gallery"
-      - text: "Registry"
+      - text: "With Love"
         href: "#registry"
 
 format:
@@ -196,6 +196,21 @@ format:
                 updateGallery(gCurrent);
                 startAutoPlay();
               }
+              
+              /* =========================
+                 CLOSE MOBILE NAV ON SCROLL
+              ========================= */
+              
+              const navbarCollapse = document.querySelector(".navbar-collapse");
+              
+              window.addEventListener("scroll", function () {
+                if (navbarCollapse && navbarCollapse.classList.contains("show")) {
+                  const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+                    toggle: false
+                  });
+                  bsCollapse.hide();
+                }
+              });
 
               /* =========================
                  NAVBAR COLOR ON SCROLL

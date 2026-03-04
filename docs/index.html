@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./#details"> 
-<span class="menu-text">Details</span></a>
+<span class="menu-text">Celebration</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./#gallery"> 
@@ -89,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./#registry"> 
-<span class="menu-text">Registry</span></a>
+<span class="menu-text">With Love</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -334,7 +334,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="registry" class="section light-bg">
   <div class="container center">
-    <h2 data-aos="fade-up">Registry</h2>
+    <h2 data-aos="fade-up">Send Your Love</h2>
     <p data-aos="fade-up" data-aos-delay="100">
       We’re really just grateful to have you in our lives. That alone means
       everything to us.  If you’re able, please leave us a message. Your words
@@ -346,7 +346,7 @@ ul.task-list li input[type="checkbox"] {
      <a href="YOUR_GOOGLE_FORM_LINK" target="_blank" class="wedding-btn message">
        Leave Us a Message
      </a>
-     
+     <br>
       <p></p>If you would like to add a little something as
       we begin this next chapter, you can use any of the options below.<p></p>
      
@@ -931,6 +931,21 @@ ul.task-list li input[type="checkbox"] {
       updateGallery(gCurrent);
       startAutoPlay();
     }
+    
+    /* =========================
+       CLOSE MOBILE NAV ON SCROLL
+    ========================= */
+    
+    const navbarCollapse = document.querySelector(".navbar-collapse");
+    
+    window.addEventListener("scroll", function () {
+      if (navbarCollapse && navbarCollapse.classList.contains("show")) {
+        const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+          toggle: false
+        });
+        bsCollapse.hide();
+      }
+    });
 
     /* =========================
        NAVBAR COLOR ON SCROLL
