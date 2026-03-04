@@ -412,7 +412,7 @@ main.content {
 
 .gallery-wrapper {
   background: #f4f1ea;
-  padding: 4rem 2rem;
+  padding: 1rem 1rem;
   width: 90%;
   max-width: 900px;
   text-align: center;
@@ -501,4 +501,17 @@ main.content {
 
 .gallery-dot.active {
   background: #6a5a4d;
+}
+
+/* gallery slide */
+.gallery-slide {
+  opacity: 0;
+  transition: opacity 0.6s ease;
+  position: absolute;
+  width: 100%;
+}
+
+.gallery-slide.active {
+  opacity: 1;
+  position: relative;
 }

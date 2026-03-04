@@ -75,56 +75,93 @@ format:
               }
 
               /* =========================
-                 GALLERY SLIDER
+                 GALLERY SLIDER (AUTO + DOTS + PAUSE)
               ========================== */
               const gSlides = document.querySelectorAll(".gallery-slide");
               const gNext = document.querySelector(".gallery-next");
               const gPrev = document.querySelector(".gallery-prev");
               const dotsContainer = document.querySelector(".gallery-dots");
+              const galleryWrapper = document.querySelector(".gallery-slider");
 
-              if (gSlides.length && gNext && gPrev) {
+              if (gSlides.length && gNext && gPrev && dotsContainer) {
 
                 let gCurrent = 0;
-                
+                let autoPlayInterval;
+
+                /* ----- Create dots dynamically ----- */
                 gSlides.forEach((_, index) => {
                   const dot = document.createElement("span");
                   dot.classList.add("gallery-dot");
-                
+
                   dot.addEventListener("click", function () {
                     gCurrent = index;
                     updateGallery(gCurrent);
+                    resetAutoPlay();
                   });
-                
+
                   dotsContainer.appendChild(dot);
                 });
 
                 function updateGallery(index) {
                   gSlides.forEach(slide => slide.classList.remove("active"));
-                
+
                   const gDots = document.querySelectorAll(".gallery-dot");
                   gDots.forEach(dot => dot.classList.remove("active"));
-                
+
                   gSlides[index].classList.add("active");
                   if (gDots[index]) {
                     gDots[index].classList.add("active");
                   }
                 }
 
+                function startAutoPlay() {
+                  autoPlayInterval = setInterval(function () {
+                    if (gCurrent < gSlides.length - 1) {
+                      gCurrent++;
+                    } else {
+                      gCurrent = 0; // loop back
+                    }
+                    updateGallery(gCurrent);
+                  }, 3500);
+                }
+
+                function resetAutoPlay() {
+                  clearInterval(autoPlayInterval);
+                  startAutoPlay();
+                }
+
+                /* ----- Button Controls ----- */
                 gNext.addEventListener("click", function () {
                   if (gCurrent < gSlides.length - 1) {
                     gCurrent++;
-                    updateGallery(gCurrent);
+                  } else {
+                    gCurrent = 0;
                   }
+                  updateGallery(gCurrent);
+                  resetAutoPlay();
                 });
 
                 gPrev.addEventListener("click", function () {
                   if (gCurrent > 0) {
                     gCurrent--;
-                    updateGallery(gCurrent);
+                  } else {
+                    gCurrent = gSlides.length - 1;
                   }
+                  updateGallery(gCurrent);
+                  resetAutoPlay();
+                });
+
+                /* ----- Pause on Hover (Premium UX) ----- */
+                galleryWrapper.addEventListener("mouseenter", function () {
+                  clearInterval(autoPlayInterval);
+                });
+
+                galleryWrapper.addEventListener("mouseleave", function () {
+                  startAutoPlay();
                 });
 
                 updateGallery(gCurrent);
+                startAutoPlay();
               }
 
               /* =========================
