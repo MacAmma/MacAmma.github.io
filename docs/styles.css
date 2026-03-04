@@ -13,7 +13,7 @@ body {
   margin: 0;
   background-color: var(--bg-color);
   color: var(--text-color);
-  font-family: 'Courier', serif;
+  font-family: 'Rubik', serif;
   scroll-behavior: smooth;
   padding-top: 80px;
 }
@@ -63,26 +63,15 @@ h1, h2, h3 {
   background-repeat: no-repeat;
 
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
 }
 
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.35);
+.hero-content {
+  color: white;
+  max-width: 900px;
 }
 
-.hero-overlay {
-  position: relative;
-  z-index: 2;
-  text-align: center;
-  color: white;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 2rem 3rem;
-  border-radius: 20px;
-}
 
 .hero h1 {
   font-size: clamp(4rem, 7vw, 9.5rem);
