@@ -248,7 +248,6 @@ main.content {
   background: #d2bba4; /* soft beige tone */
   padding: 120px 20px;
   position: relative;
-  padding-bottom: 4rem;
 }
 
 .story-wrapper {
@@ -269,13 +268,6 @@ main.content {
   z-index: 1;
 }
 
-.story-image {
-  height: 55vh;
-  background-image: url("assets/images/ASA.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
 
 /* Title */
 .story-card h2 {
@@ -284,16 +276,6 @@ main.content {
   font-size: 2.5rem;
   margin-bottom: 60px;
   color: #6f5a4c;
-}
-
-.story-card {
-  background: #f5efe6;
-  padding: 2rem;
-  max-width: 700px;
-  margin: -80px auto 0 auto;   /* pulls card upward */
-  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
-  position: relative;
-  z-index: 2;
 }
 
 /* Content layout */
@@ -324,7 +306,7 @@ main.content {
 
 .story-text {
   flex: 1;
-  color: white;
+  color: #6f5a4c;
   line-height: 1.8;
 }
 
@@ -379,26 +361,38 @@ main.content {
   }
 }
 
-@media (min-width: 992px) {
 
-  .story-section {
-    display: flex;
-    align-items: center;
-    padding: 6rem 2rem;
-  }
-
-  .story-image {
-    flex: 1;
-    height: 600px;
-  }
-
-  .story-card {
-    flex: 1;
-    margin: 0;
-    box-shadow: none;
-    background: transparent;
-    padding-left: 4rem;
-  }
-
+.story-slider {
+  position: relative;
 }
 
+.story-slide {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.story-slide.active {
+  display: block;
+  opacity: 1;
+}
+
+.story-controls {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  max-width: 150px;
+}
+
+.story-controls button {
+  background: none;
+  border: 1px solid var(--accent-color);
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.story-controls button:hover {
+  background: var(--accent-color);
+  color: white;
+}

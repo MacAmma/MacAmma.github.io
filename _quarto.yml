@@ -24,7 +24,7 @@ format:
   html:
     theme: flatly
     css: styles.css
-    include-in-header: 
+    include-in-header:
       - text: |
           <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     include-after-body:
@@ -35,5 +35,34 @@ format:
               duration: 600,
               once: true,
               startEvent: 'load'
+            });
+          </script>
+
+          <script>
+            document.addEventListener("DOMContentLoaded", function () {
+
+              const slides = document.querySelectorAll(".story-slide");
+              const nextBtn = document.querySelector(".story-next");
+              const prevBtn = document.querySelector(".story-prev");
+
+              if (!slides.length) return;
+
+              let current = 0;
+
+              function showSlide(index) {
+                slides.forEach(slide => slide.classList.remove("active"));
+                slides[index].classList.add("active");
+              }
+
+              nextBtn.addEventListener("click", function () {
+                current = (current + 1) % slides.length;
+                showSlide(current);
+              });
+
+              prevBtn.addEventListener("click", function () {
+                current = (current - 1 + slides.length) % slides.length;
+                showSlide(current);
+              });
+
             });
           </script>
