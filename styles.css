@@ -149,26 +149,6 @@ h1, h2, h3 {
   color: white;
 }
 
-.hero-btn {
-  display: inline-block;
-  margin-top: 1.5rem;
-  padding: 10px 26px;
-  font-size: 0.9rem;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  text-decoration: none;
-  border: 1px solid white;
-  color: white;
-  background: transparent;
-  border-radius: 30px;
-  transition: all 0.3s ease;
-}
-
-.hero-btn:hover {
-  background: white;
-  color: #222;
-}
-
 .registry-buttons {
   margin-top: 2rem;
   display: flex;
@@ -541,4 +521,56 @@ main.content {
   height: 320px;        /* choose your height */
   object-fit: cover;    /* crop to fill */
   border-radius: 20px;
+}
+
+
+/* SECTION BETWEEN HERO & STORY */
+.love-bridge {
+  text-align: center;
+  margin-top: -30px;   /* pulls upward slightly */
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 5;
+}
+
+/* MAIN BUTTON */
+.love-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 28px;
+  background: #f4f1ea;
+  border-radius: 40px;
+  text-decoration: none;
+  color: #5a4a42;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.love-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 35px rgba(0,0,0,0.12);
+}
+
+/* HEART ANIMATION */
+.love-heart {
+  font-size: 18px;
+  animation: heartbeat 1.6s infinite ease-in-out;
+}
+
+/* TEXT */
+.love-label {
+  text-transform: uppercase;
+}
+
+/* HEART PULSE */
+@keyframes heartbeat {
+  0% { transform: scale(1); }
+  25% { transform: scale(1.15); }
+  50% { transform: scale(1); }
+  75% { transform: scale(1.1); }
+  100% { transform: scale(1); }
 }
