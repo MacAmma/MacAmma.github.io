@@ -116,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 
-<section class="story-section">
+<section id="story" class="story-section">
 
   <div class="story-wrapper">
 
@@ -160,18 +160,38 @@ ul.task-list li input[type="checkbox"] {
 
   </div>
 
-</div>
-        <div class="story-divider"></div>
+</div></div></section>
+<section id="story" class="story-section">
 
-        <div class="story-action">
-        </div>
-      </div>
+  <div class="story-image"></div>
 
-    </section></div>
+  <div class="story-card">
+    <h2>The Data Behind Us</h2>
 
-  
+    <div class="story-text">
+      <p>
+        Mac and Sarah met in school. The initial conditions were simple...
+      </p>
 
+      <p>
+        Then life introduced a change in location...
+      </p>
 
+      <p>
+        What Sarah did not know was that Mac had been running a long-term analysis.
+      </p>
+
+      <p>Mac asked.</p>
+      <p>Sarah said yes.</p>
+      <p><strong>My statistically significant other!</strong></p>
+
+      <p>
+        Since then, we have been writing a story neither of us saw coming...
+      </p>
+    </div>
+  </div>
+
+</section>
 <section id="details" class="section light-bg">
   <div class="container">
     <h2 data-aos="fade-up">Wedding Details</h2>
@@ -210,7 +230,7 @@ ul.task-list li input[type="checkbox"] {
       we begin this next chapter, you can use any of the options below.
     </p>
 
-    <div class="registry-buttons" data-aos="fade-up" data-aos-delay="200">
+    <div class="registry-buttons">
       <a href="https://paypal.me/nanamafobi" target="_blank" class="wedding-btn">
         PayPal
       </a>
@@ -622,12 +642,13 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
- <!-- /content -->
+</div> <!-- /content -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init({
     duration: 600,
-    once: false
+    once: true,
+    startEvent: 'load'
   });
 </script>
 

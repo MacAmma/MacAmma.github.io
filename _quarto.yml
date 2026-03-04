@@ -33,6 +33,7 @@ format:
           <script>
             AOS.init({
               duration: 600,
-              once: false
+              once: true,
+              startEvent: 'load'
             });
           </script>

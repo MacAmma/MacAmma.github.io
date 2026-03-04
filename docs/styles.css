@@ -162,6 +162,23 @@ h1, h2, h3 {
   flex-wrap: wrap;
 }
 
+.wedding-btn {
+  display: inline-block;
+  padding: 0.9rem 2.2rem;
+  border: 1.5px solid var(--accent-color);
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.wedding-btn:hover {
+  background-color: var(--accent-color);
+  color: white;
+  transform: translateY(-2px);
+}
+
 /* ===== NAVBAR ===== */
 
 .navbar {
@@ -343,3 +360,5 @@ main.content {
     display: none;
   }
 }
+
+
