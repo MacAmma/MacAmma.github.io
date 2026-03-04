@@ -24,6 +24,9 @@ about:
   <div class="hero-overlay">
     <h1 data-aos="fade-up">Macbeth & Sarah</h1>
     <p data-aos="fade-up" data-aos-delay="200">May 26, 2026</p>
+    <a href="#registry" class="hero-btn">
+       With Love
+    </a>
   </div>
   </div>
 </section>
@@ -155,32 +158,28 @@ about:
         <img src="assets/images/utah.jpg" alt="">
         <p>We absolutely loved Salt Lake City. It has the beauty of the mountains and
         still feels like real city living. This photo was taken at the Utah State Capitol
-        with the views behind us. We spent time at City Creek Center and later explored
-        the nightlife in Salt Lake and Murray</p>
+        with the views behind us. </p>
       </div>
       
       <div class="gallery-slide">
         <img src="assets/images/denver1.jpg" alt="">
-        <p>Our visit to Denver was nothing short of memorable. We had a long nine hour
-        drive from Bozeman to Denver, and along the way we shared some deep and honest
-        conversations about ourselves and where we were headed. The road felt long, but
-        the time together made it special.</p>
+        <p>Our visit to Denver was nothing short of memorable. We had a long nine-hour
+        drive from Bozeman to Denver. The road felt long, but the time together made it
+        special.</p>
       </div>
    
      <div class="gallery-slide">
         <img src="assets/images/nash.jpg" alt="">
-        <p>We were in Nashville, Tennessee for a conference, and one day we decided to
-        step away from the meetings and explore the city. This photo was taken on a hotel
-        rooftop with the Nashville skyline behind us. It was a nice break from the busy
-        schedule and a chance to just enjoy the moment together.</p>
+        <p>This photo was taken on a hotel rooftop with the Nashville skyline
+        behind us. It was a nice break from the busy schedule and a chance to just enjoy
+        the moment together. </p>
       </div>
       
       <div class="gallery-slide">
         <img src="assets/images/GoM.jpg" alt="">
         <p>This photo was taken on the Missouri River at the Gates of the Mountains in
-        Helena, Montana. We went there with the African Society at MSU for a boat ride
-        and to take in the beautiful mountain views. It was such a peaceful day, just
-        being out on the water and enjoying the scenery together.</p>
+        Helena, Montana. It was such a peaceful day, just being out on the water and
+        enjoying the scenery. </p>
       </div>
 
       <div class="gallery-slide">
@@ -191,9 +190,7 @@ about:
 
       <div class="gallery-slide">
         <img src="assets/images/commencement.jpg" alt="">
-        <p>Here we are at our roommates’ commencement in May 2025. We were so happy and
-        proud of them, but also a little sad knowing they would soon be leaving for
-        different states. It was one of those moments filled with celebration and quiet
+        <p>Here we were at our roommates’ commencement in May 2025. It was one of those moments filled with celebration and quiet
         goodbyes.</p>
       </div>
 
