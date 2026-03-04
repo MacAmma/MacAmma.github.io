@@ -42,6 +42,22 @@ format:
 
           <script>
             document.addEventListener("DOMContentLoaded", function () {
+            
+            /* =========================
+               HERO SLIDER
+            ========================= */
+            
+            const heroSlides = document.querySelectorAll(".hero-slide");
+            
+            if (heroSlides.length) {
+              let heroIndex = 0;
+            
+              setInterval(() => {
+                heroSlides[heroIndex].classList.remove("active");
+                heroIndex = (heroIndex + 1) % heroSlides.length;
+                heroSlides[heroIndex].classList.add("active");
+              }, 6000); // change every 6 seconds
+            }
 
               /* =========================
                  STORY SLIDER

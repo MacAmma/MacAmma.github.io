@@ -109,13 +109,20 @@ ul.task-list li input[type="checkbox"] {
 
 
 <section id="hero" class="hero">
-  <div class="section-container hero-content">
+  
+  <div class="hero-slides">
+    <div class="hero-slide active" style="background-image: url('assets/images/denver1.jpg');"></div>
+    <div class="hero-slide" style="background-image: url('assets/images/denver2.jpg');"></div>
+    <div class="hero-slide" style="background-image: url('assets/images/denver3.jpg');"></div>
+    <div class="hero-slide" style="background-image: url('assets/images/denver4.jpg');"></div>
+  </div>
+  
   <div class="hero-overlay">
     <h1 data-aos="fade-up">Macbeth &amp; Sarah</h1>
     <p data-aos="fade-up" data-aos-delay="200">May 26, 2026</p>
   </div>
-  </div>
-</section>
+  </section></div>
+
 
 
 <section class="love-bridge">
@@ -200,23 +207,14 @@ ul.task-list li input[type="checkbox"] {
       </div>
       </div>
     </div>
-  </section></div>
-
-<section id="save-date" class="save-date-section">
+  
+</section>
+<section id="save-date" class="gallery-section">
 
   <div class="save-grid">
 
     <!-- Top Left -->
-    <div class="save-item">
-      <img src="assets/images/denver4.jpg" alt="Save the Date 1">
-    </div>
-
-    <!-- Top Right -->
-    <div class="save-item">
-      <img src="assets/images/denver3.jpg" alt="Save the Date 2">
-    </div>
-
-    <!-- Bottom Left (Slideshow) -->
+    
     <div class="save-item slideshow">
       <div class="save-slide active">
         <img src="assets/images/denver4.jpg">
@@ -227,6 +225,17 @@ ul.task-list li input[type="checkbox"] {
       <div class="save-slide">
         <img src="assets/images/denver1.jpg">
       </div>
+    </div>
+    
+
+    <!-- Top Right -->
+    <div class="save-item">
+      <img src="assets/images/denver3.jpg" alt="Save the Date 2">
+    </div>
+
+    <!-- Bottom Left (Slideshow) -->
+    <div class="save-item">
+      <img src="assets/images/denver4.jpg" alt="Save the Date 1">
     </div>
 
     <!-- Bottom Right -->
@@ -768,6 +777,22 @@ ul.task-list li input[type="checkbox"] {
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
+  
+  /* =========================
+     HERO SLIDER
+  ========================= */
+  
+  const heroSlides = document.querySelectorAll(".hero-slide");
+  
+  if (heroSlides.length) {
+    let heroIndex = 0;
+  
+    setInterval(() => {
+      heroSlides[heroIndex].classList.remove("active");
+      heroIndex = (heroIndex + 1) % heroSlides.length;
+      heroSlides[heroIndex].classList.add("active");
+    }, 6000); // change every 6 seconds
+  }
 
     /* =========================
        STORY SLIDER
