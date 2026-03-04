@@ -60,12 +60,16 @@ format:
                 }
 
                 nextBtn.addEventListener("click", function () {
-                  current = (current + 1) % slides.length;
+                  if (current < slides.length - 1) {
+                  current++;
+                }
                   showSlide(current);
                 });
 
                 prevBtn.addEventListener("click", function () {
-                  current = (current - 1 + slides.length) % slides.length;
+                  if (current > 0) {
+                  current--;
+                }
                   showSlide(current);
                 });
               }
