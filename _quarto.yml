@@ -73,6 +73,23 @@ format:
                   showSlide(current);
                 });
               }
+              
+              /* =========================
+                 SAVE THE DATE SLIDESHOW
+              ========================== */
+              const saveSlides = document.querySelectorAll(".save-slide");
+              
+              if (saveSlides.length) {
+                let saveIndex = 0;
+              
+                function rotateSaveSlides() {
+                  saveSlides.forEach(slide => slide.classList.remove("active"));
+                  saveSlides[saveIndex].classList.add("active");
+                  saveIndex = (saveIndex + 1) % saveSlides.length;
+                }
+              
+                setInterval(rotateSaveSlides, 2500);
+              }
 
               /* =========================
                  GALLERY SLIDER (AUTO + DOTS + PAUSE)

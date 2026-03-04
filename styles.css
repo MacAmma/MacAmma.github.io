@@ -579,3 +579,60 @@ main.content {
   60% { transform: scale(1); }
   100% { transform: scale(1); }
 }
+
+/* footer copyright */
+.site-footer {
+  text-align: right;
+  padding: 30px 0;
+  font-size: 0.8rem;
+  color: #8a7f75;
+  letter-spacing: 1px;
+}
+
+/* save the date */
+.save-date-section {
+  padding: 80px 0px;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.save-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 65%; 
+}
+
+.save-item {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.save-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.save-item:hover img {
+  transform: scale(1.05);
+}
+
+.slideshow {
+  position: relative;
+}
+
+.save-slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.save-slide.active {
+  opacity: 1;
+}

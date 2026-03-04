@@ -132,6 +132,45 @@ about:
 ```
 
 
+```{=html}
+<section id="save-date" class="save-date-section">
+
+  <div class="save-grid">
+
+    <!-- Top Left -->
+    <div class="save-item">
+      <img src="assets/images/denver4.jpg" alt="Save the Date 1">
+    </div>
+
+    <!-- Top Right -->
+    <div class="save-item">
+      <img src="assets/images/denver3.jpg" alt="Save the Date 2">
+    </div>
+
+    <!-- Bottom Left (Slideshow) -->
+    <div class="save-item slideshow">
+      <div class="save-slide active">
+        <img src="assets/images/denver4.jpg">
+      </div>
+      <div class="save-slide">
+        <img src="assets/images/denver2.jpg">
+      </div>
+      <div class="save-slide">
+        <img src="assets/images/denver1.jpg">
+      </div>
+    </div>
+
+    <!-- Bottom Right -->
+    <div class="save-item">
+      <img src="assets/images/denver2.jpg" alt="Save the Date 4">
+    </div>
+
+  </div>
+
+</section>
+```
+
+
 
 ```{=html}
 <section id="gallery" class="gallery-section">
@@ -224,10 +263,6 @@ about:
 
 
 
-
-
-
-
 ```{=html}
 <section id="registry" class="section light-bg">
   <div class="container center">
@@ -262,4 +297,10 @@ about:
 </section>
 ```
 
+
+```{=html}
+<footer class="site-footer">
+  © MacAmma, 2026
+</footer>
+```
 

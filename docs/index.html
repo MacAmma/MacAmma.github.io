@@ -202,6 +202,41 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </section></div>
 
+<section id="save-date" class="save-date-section">
+
+  <div class="save-grid">
+
+    <!-- Top Left -->
+    <div class="save-item">
+      <img src="assets/images/denver4.jpg" alt="Save the Date 1">
+    </div>
+
+    <!-- Top Right -->
+    <div class="save-item">
+      <img src="assets/images/denver3.jpg" alt="Save the Date 2">
+    </div>
+
+    <!-- Bottom Left (Slideshow) -->
+    <div class="save-item slideshow">
+      <div class="save-slide active">
+        <img src="assets/images/denver4.jpg">
+      </div>
+      <div class="save-slide">
+        <img src="assets/images/denver2.jpg">
+      </div>
+      <div class="save-slide">
+        <img src="assets/images/denver1.jpg">
+      </div>
+    </div>
+
+    <!-- Bottom Right -->
+    <div class="save-item">
+      <img src="assets/images/denver2.jpg" alt="Save the Date 4">
+    </div>
+
+  </div>
+
+</section>
 <section id="gallery" class="gallery-section">
   
   <h2></h2>
@@ -293,8 +328,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 data-aos="fade-up">Registry</h2>
     <p data-aos="fade-up" data-aos-delay="100">
       We’re really just grateful to have you in our lives. That alone means
-      everything to us. But if you would like to add a little something as
-      we begin this next chapter, you can use any of the options below.
+      everything to us. If you would like to add a little something as
+      we begin this next chapter, you can use any of the options below. And if you’re
+      able, please leave us a message as well. Your words will mean more to us than you
+      know.
     </p>
 
     <div class="registry-buttons">
@@ -317,6 +354,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 </section>
+<footer class="site-footer">
+  © MacAmma, 2026
+</footer>
 
 
 
@@ -756,6 +796,23 @@ ul.task-list li input[type="checkbox"] {
         }
         showSlide(current);
       });
+    }
+    
+    /* =========================
+       SAVE THE DATE SLIDESHOW
+    ========================== */
+    const saveSlides = document.querySelectorAll(".save-slide");
+    
+    if (saveSlides.length) {
+      let saveIndex = 0;
+    
+      function rotateSaveSlides() {
+        saveSlides.forEach(slide => slide.classList.remove("active"));
+        saveSlides[saveIndex].classList.add("active");
+        saveIndex = (saveIndex + 1) % saveSlides.length;
+      }
+    
+      setInterval(rotateSaveSlides, 2500);
     }
 
     /* =========================
