@@ -286,7 +286,7 @@ about:
 
     <div class="registry-buttons">
     
-     <a href="YOUR_GOOGLE_FORM_LINK" target="_blank" class="wedding-btn">
+     <a href="YOUR_GOOGLE_FORM_LINK" target="_blank" class="wedding-btn message">
        Leave Us a Message
      </a>
      

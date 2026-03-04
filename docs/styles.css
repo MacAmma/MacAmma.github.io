@@ -181,19 +181,46 @@ h1, h2, h3 {
 
 .wedding-btn {
   display: inline-block;
-  padding: 0.9rem 2.2rem;
-  border: 1.5px solid var(--accent-color);
+  align-items: center;
+  gap: 10px;
+
+  padding: 16px 40px;
+  border-radius: 40px;
+
+  font-size: 1rem;
+  letter-spacing: 1px;
   text-decoration: none;
-  color: var(--text-color);
-  font-weight: 500;
-  letter-spacing: 0.5px;
+
+  background: #f4f1ea;
+  color: #6a5a4d;
+
+  border: 1px solid rgba(0, 0, 0, 0.08);
+
+  box-shadow:
+    0 10px 20px rgba(0, 0, 0, 0.10),
+    0 20px 40px rgba(0, 0, 0, 0.06);
+
   transition: all 0.3s ease;
 }
 
 .wedding-btn:hover {
-  background-color: var(--accent-color);
-  color: white;
-  transform: translateY(-2px);
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 20px 35px rgba(0, 0, 0, 0.15),
+    0 40px 70px rgba(0, 0, 0, 0.10);
+
+  background: #ffffff;
+}
+
+.registry-button::before {
+  margin-right: 8px;
+  font-size: 1.1rem;
+}
+
+/* Message */
+.message::before {
+  content: "💌";
 }
 
 /* ===== NAVBAR ===== */
