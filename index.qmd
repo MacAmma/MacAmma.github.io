@@ -20,9 +20,11 @@ about:
 ```{=html}
 
 <section id="hero" class="hero">
+  <div class="section-container hero-content">
   <div class="hero-overlay">
     <h1 data-aos="fade-up">Macbeth & Sarah</h1>
     <p data-aos="fade-up" data-aos-delay="200">May 26, 2026</p>
+  </div>
   </div>
 </section>
 
@@ -34,6 +36,8 @@ about:
 
 ```{=html}
 <section id="story" class="story-section">
+
+  <div class="section-container">
 
   <div class="story-image"></div>
 

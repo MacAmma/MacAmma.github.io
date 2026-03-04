@@ -28,6 +28,12 @@ h1, h2, h3 {
   margin: auto;
 }
 
+.section-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .section {
   padding: 5rem 2rem;
 }
@@ -45,7 +51,7 @@ h1, h2, h3 {
 .hero {
   height: 70vh;
   width: 70%;
-  margin: 40px auto;
+  margin: 0;
   margin-bottom: 120px;
   border-radius: 25px;
   overflow: hidden;
@@ -260,7 +266,6 @@ main.content {
 .story-image {
   height: 60vh;
   width: 85%;
-  margin-left: 3rem;
   background-image: url("assets/images/ASA.jpg");
   background-size: cover;
   background-position: center;
