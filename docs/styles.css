@@ -636,3 +636,34 @@ main.content {
 .save-slide.active {
   opacity: 1;
 }
+
+@media (max-width: 768px) {
+
+  .save-date-section {
+    padding: 50px 20px;
+  }
+
+  .save-grid {
+    grid-template-columns: 1fr 1fr;  
+    gap: 15px;
+  }
+
+  .save-item {
+    aspect-ratio: 1 / 1;  
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  #save-date {
+    padding: 50px 15px;
+  }
+
+  #save-date .save-grid {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 12px;
+  }
+
+}
