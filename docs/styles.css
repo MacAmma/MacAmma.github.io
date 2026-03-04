@@ -195,22 +195,15 @@ h1, h2, h3 {
   color: var(--text-color);
   font-family: var(--font-body);
   font-weight: 500;
-  background-color: #B8654A !important;
 }
 
 .navbar a:hover {
-  color: #B8654A;
+  color: var(--accent-color);
 }
 
 .nav-hidden {
-  /* transform: translateY(-100%);*/
+  transform: translateY(-100%);
   transition: transform 0.3s ease;
-}
-
-.navbar,
-.navbar.navbar-expand-lg,
-.navbar.bg-light {
-  background-color: #B8654A !important;
 }
 
 /* ===== REMOVE QUARTO COLUMN LAYOUT ===== */
