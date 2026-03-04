@@ -783,15 +783,6 @@ main.content {
   transform: translateY(1px);
 }
 
-.story-prev:hover,
-.story-next:hover,
-.gallery-prev:hover,
-.gallery-next:hover {
-  transform: translateY(-50%) translateY(-4px);
-  box-shadow:
-    0 18px 35px rgba(0, 0, 0, 0.18),
-    0 30px 60px rgba(0, 0, 0, 0.12);
-}
 
 
 
