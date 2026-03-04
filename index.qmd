@@ -37,7 +37,7 @@ about:
 <section class="love-bridge">
   <a href="#registry" class="love-button">
     <span class="love-heart">❤</span>
-    <span class="love-label">With Love</span>
+    <span class="love-label">Send Your Love</span>
   </a>
 </section>
 ```
@@ -234,11 +234,17 @@ about:
     <h2 data-aos="fade-up">Registry</h2>
     <p data-aos="fade-up" data-aos-delay="100">
       We’re really just grateful to have you in our lives. That alone means
-      everything to us. But if you would like to add a little something as
-      we begin this next chapter, you can use any of the options below.
+      everything to us. If you would like to add a little something as
+      we begin this next chapter, you can use any of the options below. And if you’re
+      able, please leave us a message as well. Your words will mean more to us than you
+      know.
     </p>
 
     <div class="registry-buttons">
+    
+     <a href="YOUR_GOOGLE_FORM_LINK" target="_blank" class="wedding-btn">
+       Leave Us a Message
+     </a>
       <a href="https://paypal.me/nanamafobi" target="_blank" class="wedding-btn">
         PayPal
       </a>
@@ -252,6 +258,7 @@ about:
       </a>
     </div>
   </div>
+  
 </section>
 ```
 
