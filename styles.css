@@ -769,4 +769,29 @@ main.content {
 }
 
 
+/* =========================
+   STORY & GALLERY ARROWS
+========================= */
+
+.story-prev,
+.story-next,
+.gallery-prev,
+.gallery-next {
+
+  box-shadow: 0 6px 18px rgba(80, 60, 40, 0.18);
+  transition: all 0.3s ease;
+  transform: translateY(1px);
+}
+
+.story-prev:hover,
+.story-next:hover,
+.gallery-prev:hover,
+.gallery-next:hover {
+  transform: translateY(-50%) translateY(-4px);
+  box-shadow:
+    0 18px 35px rgba(0, 0, 0, 0.18),
+    0 30px 60px rgba(0, 0, 0, 0.12);
+}
+
+
 
