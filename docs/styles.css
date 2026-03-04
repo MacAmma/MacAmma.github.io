@@ -13,13 +13,13 @@ body {
   margin: 0;
   background-color: var(--bg-color);
   color: var(--text-color);
-  font-family: var(--font-body);
+  font-family: 'Courier', serif;
   scroll-behavior: smooth;
   padding-top: 80px;
 }
 
 h1, h2, h3 {
-  font-family: var(--font-heading);
+  font-family: 'Milkshake', cursive;
   letter-spacing: 1px;
 }
 
@@ -251,7 +251,7 @@ main.content {
 /* ===== OUR STORY SECTION ===== */
 
 .story-section {
-  background: transparent; /* soft beige tone */
+  background: #9CAF88; /* soft beige tone */
   padding: 120px 20px;
   position: relative;
 }
