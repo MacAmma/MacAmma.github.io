@@ -61,17 +61,70 @@ format:
 
                 nextBtn.addEventListener("click", function () {
                   if (current < slides.length - 1) {
-                  current++;
-                }
+                    current++;
+                  }
                   showSlide(current);
                 });
 
                 prevBtn.addEventListener("click", function () {
                   if (current > 0) {
-                  current--;
-                }
+                    current--;
+                  }
                   showSlide(current);
                 });
+              }
+
+              /* =========================
+                 GALLERY SLIDER
+              ========================== */
+              const gSlides = document.querySelectorAll(".gallery-slide");
+              const gNext = document.querySelector(".gallery-next");
+              const gPrev = document.querySelector(".gallery-prev");
+              const dotsContainer = document.querySelector(".gallery-dots");
+
+              if (gSlides.length && gNext && gPrev) {
+
+                let gCurrent = 0;
+                
+                gSlides.forEach((_, index) => {
+                  const dot = document.createElement("span");
+                  dot.classList.add("gallery-dot");
+                
+                  dot.addEventListener("click", function () {
+                    gCurrent = index;
+                    updateGallery(gCurrent);
+                  });
+                
+                  dotsContainer.appendChild(dot);
+                });
+
+                function updateGallery(index) {
+                  gSlides.forEach(slide => slide.classList.remove("active"));
+                
+                  const gDots = document.querySelectorAll(".gallery-dot");
+                  gDots.forEach(dot => dot.classList.remove("active"));
+                
+                  gSlides[index].classList.add("active");
+                  if (gDots[index]) {
+                    gDots[index].classList.add("active");
+                  }
+                }
+
+                gNext.addEventListener("click", function () {
+                  if (gCurrent < gSlides.length - 1) {
+                    gCurrent++;
+                    updateGallery(gCurrent);
+                  }
+                });
+
+                gPrev.addEventListener("click", function () {
+                  if (gCurrent > 0) {
+                    gCurrent--;
+                    updateGallery(gCurrent);
+                  }
+                });
+
+                updateGallery(gCurrent);
               }
 
               /* =========================

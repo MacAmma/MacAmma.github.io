@@ -97,10 +97,6 @@ about:
 
 
 
-
-
-
-
 ```{=html}
 <section id="details" class="section light-bg">
   <div class="container">
@@ -127,17 +123,51 @@ about:
 
 
 
-
 ```{=html}
-<section id="gallery" class="section">
-  <div class="container">
-    <h2 data-aos="fade-up">Gallery</h2>
-    <div class="slideshow" data-aos="fade-up">
-      <div class="slide active"></div>
-      <div class="slide"></div>
-      <div class="slide"></div>
+<section id="gallery" class="gallery-section">
+
+  <div class="gallery-wrapper">
+
+    <h2>Moments We Love</h2>
+
+    <div class="gallery-slider">
+
+      <div class="gallery-slide active">
+        <img src="assets/images/utah.jpg" alt="">
+        <p>Our first trip together.</p>
+      </div>
+
+      <div class="gallery-slide">
+        <img src="assets/images/commencement.jpg" alt="">
+        <p>Celebrating milestones.</p>
+      </div>
+
+      <div class="gallery-slide">
+        <img src="assets/images/nash.jpg" alt="">
+        <p>Smiles we’ll never forget.</p>
+      </div>
+      
+      <div class="gallery-slide">
+        <img src="assets/images/denver1.jpg" alt="">
+        <p>Smiles we’ll never forget.</p>
+      </div>
+      
+      <div class="gallery-slide">
+        <img src="assets/images/idaho.jpg" alt="">
+        <p>Smiles we’ll never forget.</p>
+      </div>
+
+      <div class="gallery-controls">
+        <button class="gallery-prev">‹</button>
+        <button class="gallery-next">›</button>
+      </div>
+
+      <div class="gallery-dots"></div>
+
     </div>
+
   </div>
+
 </section>
 ```
 
