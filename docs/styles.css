@@ -12,9 +12,10 @@
 body {
   margin: 0;
   background-color: var(--bg-color);
-  background-color: linear-gradient(to bottom, #D8E2D6 0%, #E8CBB3 100%);
+  background-color:  #E8CBB3 ;
   color: var(--text-color);
-  font-family: "Georgia" !important;
+  font-family: "Lato" !important;
+  font-size: 0.9rem;
   scroll-behavior: smooth;
   padding-top: 80px;
 }
