@@ -312,7 +312,7 @@ main.content {
 /* ===== OUR STORY SECTION ===== */
 
 .story-section {
-  background: #9CAF88; /* soft beige tone */
+  background: #feffea; /* soft beige tone */
   padding: 120px 20px;
   position: relative;
 }
@@ -903,3 +903,36 @@ main.content {
 
   overflow: visible;
 } */ 
+
+
+/* Background colors */
+/* Hero */
+#hero {
+  background: linear-gradient(to bottom, #F6F1E8, #DCE5DA);
+}
+
+/* Story */
+#story {
+  background: linear-gradient(to bottom, #DCE5DA, #C8B8A6);
+}
+
+/* Wedding Details */
+#details {
+  background: linear-gradient(to bottom, #C8B8A6, #EFE7DC);
+}
+
+/* Save the Date */
+#save-date {
+  background: linear-gradient(to bottom, #EFE7DC, #F3EDE4);
+}
+
+
+/* Gallery */
+#gallery {
+  background: linear-gradient(to bottom, #F3EDE4, #D8E2D6);
+}
+
+/* Registry / With Love */
+#registry {
+  background: linear-gradient(to bottom, #D8E2D6, #D9C7B6);
+}
