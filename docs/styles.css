@@ -12,8 +12,9 @@
 body {
   margin: 0;
   background-color: var(--bg-color);
+  background: linear-gradient(to bottom, #D8E2D6 0%, #E8CBB3 100%);
   color: var(--text-color);
-  font-family: "Brush Script" !important;
+  font-family: "Georgia" !important;
   scroll-behavior: smooth;
   padding-top: 80px;
 }
@@ -363,8 +364,8 @@ main.content {
 
 .story-card {
   background: #f5efe6;
-  padding: 2rem;
-  max-width: 700px;
+  padding: 30px 20px;
+  max-width: 900px;
   margin: -120px auto -60px auto;
   box-shadow: 0 15px 40px rgba(0,0,0,0.08);
   position: relative;
@@ -480,8 +481,8 @@ main.content {
   padding: 50px;
 
   box-shadow:
-    0 20px 40px rgba(0, 0, 0, 0.48),
-    0 40px 80px rgba(0, 0, 0, 0.42);
+    0 20px 40px rgba(0, 0, 0, 0.28),
+    0 40px 80px rgba(0, 0, 0, 0.22);
 
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
@@ -507,8 +508,8 @@ main.content {
   border-radius: 40px;
   
   box-shadow:
-    0 20px 40px rgba(0, 0, 0, 0.48),
-    0 40px 80px rgba(0, 0, 0, 0.42);
+    0 20px 40px rgba(0, 0, 0, 0.28),
+    0 40px 80px rgba(0, 0, 0, 0.22);
 
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
@@ -939,30 +940,30 @@ main.content {
 } */
 
 #hero {
-  background: linear-gradient(to bottom, #F47B1F,#FFB963); 
+  background: linear-gradient(to bottom, #D8E2D6 0%,#E8CBB3 100%); 
 }
 
 .love-bridge {
-  background: linear-gradient(to right, #F4BAEB, #6BD3DB);
+  background: linear-gradient(to right, #D8E2D6 0%, #FED9BC 100%);
   padding: 60px 0;
 }
 
 #story {
-  background: linear-gradient(to bottom, #c2ced1, #D7C4B2);
+  background: linear-gradient(to bottom, #D8E2D6 0%, #FED9BC 100%);
 }
 
 #details {
-  background: linear-gradient(to bottom, #D7C4B2, #f8f0f1); 
+  background: linear-gradient(to bottom, #D8E2D6 0%, #FED9BC 100%); 
 }
 
 #save-date {
-  background: linear-gradient(to bottom,#f8f0f1, #D6C2B2); 
+  background: linear-gradient(to bottom,#D8E2D6 0%, #FED9BC 100%); 
 }
 
 #gallery {
-  background: linear-gradient(to bottom, #D6C2B2, #FED9BC); 
+  background: linear-gradient(to bottom,  #D8E2D6 0%, #FED9BC 100%); 
 }
 
 #registry {
-  background: linear-gradient(to bottom, #FED9BC, #D8E2D6); 
+  background: linear-gradient(to bottom, #FED9BC 0%, #D8E2D6 100%); 
 }
