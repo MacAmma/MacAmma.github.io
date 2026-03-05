@@ -12,7 +12,7 @@
 body {
   margin: 0;
   background-color: var(--bg-color);
-  background-color:  #E8CBB3 ;
+  background-color: linear-gradient(to bottom, #D8E2D6 0%, #E8CBB3 100%);
   color: var(--text-color);
   font-family: "Georgia" !important;
   scroll-behavior: smooth;
