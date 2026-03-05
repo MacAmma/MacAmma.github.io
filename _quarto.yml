@@ -23,6 +23,7 @@ website:
 format:
   html:
     theme: flatly
+    mainfont: Calibri
     css: styles.css
 
     include-in-header:

@@ -3,8 +3,8 @@
   --text-color: #2B2B2B;
   --accent-color: #C6A45C;
   --light-section: #ffffff;
-  --font-heading: "Playfair Display", serif;
-  --font-body: "Inter", sans-serif;
+  --font-heading: "Playfair Display", sans-serif;
+  --font-body: "Inter", serif;
 }
 
 /* ===== GLOBAL ===== */
@@ -13,14 +13,19 @@ body {
   margin: 0;
   background-color: var(--bg-color);
   color: var(--text-color);
-  font-family: 'Rubik', serif;
+  font-family: "Brush Script" !important;
   scroll-behavior: smooth;
   padding-top: 80px;
 }
 
+
 h1, h2, h3 {
   font-family: 'Milkshake', cursive !important;
   letter-spacing: 1px;
+}
+
+button {
+  font-family: "Helvetica";
 }
 
 .container {
@@ -84,12 +89,14 @@ h1, h2, h3 {
 
 .hero-overlay h1 {
   font-size: 2rem;
+  font-weight: 700 !important;
   margin: 0;
 }
 
 .hero-overlay p {
   font-size: 1.2rem;
   margin-top: 10px;
+  font-weight: 700 !important;
 }
 
 /* ===== TWO COLUMN LAYOUT ===== */
@@ -260,7 +267,7 @@ h1, h2, h3 {
 
 /* Navbar brand (Macbeth & Sarah) */
 .navbar-brand {
-  font-family: 'Playfair Display', serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
   font-size: 1.8rem;
   letter-spacing: 1px;
 }
@@ -333,14 +340,7 @@ main.content {
 }
 
 
-/* Title */
-.story-card h2 {
-  text-align: center;
-  font-family: var(--font-heading);
-  font-size: 2.5rem;
-  margin-bottom: 60px;
-  color: #6f5a4c;
-}
+
 
 /* Content layout */
 .story-card {
@@ -352,6 +352,7 @@ main.content {
   box-shadow: 0 20px 50px rgba(0,0,0,0.08);
 }
 
+/* Title */
 .story-card h2 {
   text-align: center;
   font-family: var(--font-heading);
@@ -907,32 +908,61 @@ main.content {
 
 /* Background colors */
 /* Hero */
-#hero {
+/*#hero {
   background: linear-gradient(to bottom, #F6F1E8, #DCE5DA);
 }
 
 /* Story */
-#story {
+/*#story {
   background: linear-gradient(to bottom, #DCE5DA, #C8B8A6);
 }
 
 /* Wedding Details */
-#details {
+/*#details {
   background: linear-gradient(to bottom, #C8B8A6, #EFE7DC);
 }
 
 /* Save the Date */
-#save-date {
+/*#save-date {
   background: linear-gradient(to bottom, #EFE7DC, #F3EDE4);
 }
 
 
 /* Gallery */
-#gallery {
+/*#gallery {
   background: linear-gradient(to bottom, #F3EDE4, #D8E2D6);
 }
 
 /* Registry / With Love */
-#registry {
+/*#registry {
   background: linear-gradient(to bottom, #D8E2D6, #D9C7B6);
+} */
+
+#hero {
+  background: linear-gradient(to bottom, #F47B1F,#FFB963); 
+}
+
+.love-bridge {
+  background: linear-gradient(to right, #F4BAEB, #6BD3DB);
+  padding: 60px 0;
+}
+
+#story {
+  background: linear-gradient(to bottom, #c2ced1, #D7C4B2);
+}
+
+#details {
+  background: linear-gradient(to bottom, #D7C4B2, #f8f0f1); 
+}
+
+#save-date {
+  background: linear-gradient(to bottom,#f8f0f1, #D6C2B2); 
+}
+
+#gallery {
+  background: linear-gradient(to bottom, #D6C2B2, #FED9BC); 
+}
+
+#registry {
+  background: linear-gradient(to bottom, #FED9BC, #D8E2D6); 
 }
