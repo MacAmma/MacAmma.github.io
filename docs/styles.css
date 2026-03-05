@@ -258,6 +258,20 @@ h1, h2, h3 {
   color: var(--accent-color);
 }
 
+/* Navbar brand (Macbeth & Sarah) */
+.navbar-brand {
+  font-family: 'Playfair Display', serif !important;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+/* Navbar links */
+.nav-link {
+  font-family: 'Milkshake', cursive !important;  /* or Milkshake if you prefer */
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
 /* ===== REMOVE QUARTO COLUMN LAYOUT ===== */
 
 .page-columns {
