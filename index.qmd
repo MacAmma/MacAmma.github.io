@@ -144,12 +144,12 @@ about:
 
     <!-- Top Left -->
     <div class="save-card">
-      <img src="assets/images/denver4.jpg" alt="">
+      <img src="assets/images/ma2.jpg" alt="">
     </div>
 
     <!-- Top Right -->
     <div class="save-card">
-      <img src="assets/images/denver3.jpg" alt="">
+      <img src="assets/images/ma3.JPG" alt="">
     </div>
 
     <!-- Bottom Left (Slideshow) -->
@@ -158,16 +158,16 @@ about:
         <img src="assets/images/denver4.jpg">
       </div>
       <div class="save-slide">
-        <img src="assets/images/denver2.jpg">
+        <img src="assets/images/ma3.JPG">
       </div>
       <div class="save-slide">
-        <img src="assets/images/denver1.jpg">
+        <img src="assets/images/ma1.JPG">
       </div>
     </div>
 
     <!-- Bottom Right -->
     <div class="save-card">
-      <img src="assets/images/denver2.jpg" alt="">
+      <img src="assets/images/ma2.jpg" alt="">
     </div>
 
   </div>
