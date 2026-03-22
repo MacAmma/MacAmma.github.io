@@ -337,13 +337,10 @@ main.content {
 .story-image {
   height: 60vh;
   width: 85%;
-  background-image: url("assets/images/ASA.jpg");
+  background-image: url("assets/images/ma1.jpg");
   background-size: cover;
   background-position: center;
 }
-
-
-
 
 /* Content layout */
 .story-card {
@@ -387,13 +384,6 @@ main.content {
   line-height: 1.8;
 }
 
-/* Vertical divider */
-.story-divider {
-  width: 1px;
-  height: 180px;
-  background: #b9a28f;
-}
-
 /* Button area */
 .story-action {
   flex: 1;
@@ -432,10 +422,6 @@ main.content {
   .story-content {
     flex-direction: column;
   }
-
-  .story-divider {
-    display: none;
-  }
 }
 
 
@@ -473,7 +459,6 @@ main.content {
   background: var(--accent-color);
   color: white;
 }
-
 
 .story-card {
   position: relative;
