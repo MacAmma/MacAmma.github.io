@@ -338,9 +338,9 @@ main.content {
 
 /* Background image layer */
 .story-image {
-  height: 40vh;
-  width: 65%;
-  background-image: url("assets/images/ma4.JPG");
+  height: 60vh;
+  width: 85%;
+  background-image: url("assets/images/ma1.JPG");
   background-size: cover;
   background-position: center;
 }
