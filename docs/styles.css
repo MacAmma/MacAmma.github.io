@@ -12,7 +12,7 @@
 body {
   margin: 0;
   background-color: var(--bg-color);
-  background-color:  #E8CBB3 ;
+  background-color: #f1ebdf ; 
   color: var(--text-color);
   font-family: "Lato" !important;
   font-size: 0.9rem;
@@ -271,14 +271,14 @@ button {
 
 /* Navbar brand (Macbeth & Sarah) */
 .navbar-brand {
-  font-family: 'Lato', sans-serif !important;
+  font-family: 'Inter', sans-serif !important;
   font-size: 1.2rem;
   letter-spacing: 1px;
 }
 
 /* Navbar links */
 .nav-link {
-  font-family: 'Milkshake', cursive !important;  /* or Milkshake if you prefer */
+  font-family: 'Milkshake' !important;  /* or Milkshake if you prefer */
   font-size: 1rem;
   letter-spacing: 0.5px;
 }
