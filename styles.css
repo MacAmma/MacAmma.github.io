@@ -41,7 +41,7 @@ button {
 }
 
 .section {
-  padding: 100px 0;
+  padding: 100px 2%;
 }
 
 .light-bg {
@@ -329,7 +329,7 @@ main.content {
   background: #feffea;/* soft beige tone */
   padding: 0.5rem 0.5rem 1rem 0.5rem; /* top, right, bottom, left */
   position: relative;
-  padding: 100px 0;
+  
 }
 
 .story-wrapper {
