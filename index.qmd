@@ -148,7 +148,7 @@ about:
 
     <!-- Top Left -->
     <div class="save-card">
-      <img src="assets/images/ma2.jpg" alt="">
+      <img src="assets/images/ma4.jpg" alt="">
     </div>
 
     <!-- Top Right -->
@@ -162,16 +162,16 @@ about:
         <img src="assets/images/ma2.jpg">
       </div>
       <div class="save-slide">
-        <img src="assets/images/ma3.JPG">
+        <img src="assets/images/ma1.JPG">
       </div>
       <div class="save-slide">
-        <img src="assets/images/ma1.JPG">
+        <img src="assets/images/ma3.JPG">
       </div>
     </div>
 
     <!-- Bottom Right -->
     <div class="save-card">
-      <img src="assets/images/ma2.jpg" alt="">
+      <img src="assets/images/ma1.jpg" alt="">
     </div>
 
   </div>
