@@ -12,7 +12,7 @@
 body {
   margin: 0;
   background-color: var(--bg-color);
-  background-color:  #E8CBB3 ;
+  background-color:  #ffffff ;
   color: var(--text-color);
   font-family: "Lato" !important;
   font-size: 0.9rem;
@@ -882,30 +882,30 @@ main.content {
 /* background colors */
 
 #hero {
-  background: linear-gradient(to bottom, #D8E2D6 0%,#E8CBB3 100%); 
+  background: linear-gradient(to bottom, #ffffff 0%,#ffffff 100%); 
 }
 
 .love-bridge {
-  background: linear-gradient(to right, #D8E2D6 0%, #FED9BC 100%);
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
   padding: 60px 0;
 }
 
 #story {
-  background: linear-gradient(to bottom, #D8E2D6 0%, #FED9BC 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
 }
 
 #details {
-  background: linear-gradient(to bottom, #D8E2D6 0%, #FED9BC 100%); 
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%); 
 }
 
 #save-date {
-  background: linear-gradient(to bottom,#D8E2D6 0%, #FED9BC 100%); 
+  background: linear-gradient(to bottom,#ffffff 0%, #ffffff 100%); 
 }
 
 #gallery {
-  background: linear-gradient(to bottom,  #D8E2D6 0%, #FED9BC 100%); 
+  background: linear-gradient(to bottom,  #ffffff 0%, #ffffff 100%); 
 }
 
 #registry {
-  background: linear-gradient(to bottom, #FED9BC 0%, #D8E2D6 100%); 
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%); 
 }
