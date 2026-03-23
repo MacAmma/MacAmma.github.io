@@ -114,7 +114,7 @@ about:
 ```{=html}
 <section id="details" class="section light-bg">
   <div class="container">
-    <h2 data-aos="fade-up">Wedding Details</h2>
+    <h2 data-aos="fade-up">Wedding Detail</h2>
     <div class="cards">
       <div class="card" data-aos="fade-up" data-aos-delay="100">
         <p>May is a special month for us. We both celebrate our birthdays in May,

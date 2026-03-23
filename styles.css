@@ -324,7 +324,7 @@ main.content {
 
 .story-section {
   background: #feffea;/* soft beige tone */
-  padding: 1rem 1rem 1rem 1rem; /* top, right, bottom, left */
+  padding: 60px 1%;
   position: relative;
 }
 
