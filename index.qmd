@@ -114,7 +114,7 @@ about:
 ```{=html}
 <section id="details" class="section light-bg">
   <div class="container">
-    <h2 data-aos="fade-up">Wedding Detail</h2>
+    <h2 data-aos="fade-up">Wedding Details</h2>
     <div class="cards">
       <div class="card" data-aos="fade-up" data-aos-delay="100">
         <p>May is a special month for us. We both celebrate our birthdays in May,
@@ -129,7 +129,7 @@ about:
         </p>
 
        <p>
-       Our civil ceremony will be on Tuesday, May 26, 2026, 
+       Our civil wedding will be on Tuesday, May 26, 2026, 
        at the Gallatin County District Court.
       </p>
       </div>
