@@ -123,11 +123,15 @@ about:
       </div>
       <div class="card" data-aos="fade-up" data-aos-delay="200">
         <h3>Ceremony</h3>
-        <p>We will be having our traditional wedding ceremony in Kumasi, Ghana 
-        on May 22, 2026.<br>It means so much to us to celebrate this
-        day at home, where we come from and where our traditions mean the most.
-        <br>Even though it will be in Ghana, we carry the love and
-        support of our friends and loved ones with us</p>
+        <p>
+        We will be having our traditional wedding ceremony in Kumasi, Ghana 
+        on Sunday, May 24, 2026.
+        </p>
+
+       <p>
+       Our civil ceremony will be on Tuesday, May 26, 2026, 
+       at the Gallatin County District Court.
+      </p>
       </div>
       </div>
     </div>
@@ -285,7 +289,7 @@ about:
      </a>
      <br>
       </p>If you would like to add a little something as
-      we begin this next chapter, you can use any of the options below.</p>
+      we begin this next chapter, please use any of the options below.</p>
      
       <a href="https://paypal.me/nanamafobi" target="_blank" class="wedding-btn">
         PayPal
