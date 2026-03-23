@@ -219,7 +219,7 @@ about:
       <div class="gallery-slide">
         <img src="assets/images/denver1.jpg" alt="">
         <p>Our visit to Denver was nothing short of memorable. We had a
-        long nine-hour drive from Bozeman to Denver. The road felt long, 
+        long ten-hour drive from Bozeman to Denver. The road felt long, 
         but the time together made it special.</p>
       </div>
    
