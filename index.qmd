@@ -29,7 +29,7 @@ about:
   
   <div class="hero-overlay">
     <h1 data-aos="fade-up">Macbeth & Sarah</h1>
-    <p data-aos="fade-up" data-aos-delay="200">May 26, 2026</p>
+    <p data-aos="fade-up" data-aos-delay="200">May 22, 2026</p>
   </div>
   </div>
 </section>
@@ -129,7 +129,7 @@ about:
         </p>
 
        <p>
-       Our civil wedding will be on Tuesday, May 26, 2026, 
+       Our civil wedding will be on Friday, May 22, 2026, 
        at the Gallatin County District Court, MT, USA.
       </p>
       </div>
@@ -153,7 +153,7 @@ about:
 
     <!-- Top Right -->
     <div class="save-card">
-      <img src="assets/images/ma3.JPG" alt="">
+      <img src="assets/images/ma1.JPG" alt="">
     </div>
 
     <!-- Bottom Left (Slideshow) -->
@@ -171,7 +171,7 @@ about:
 
     <!-- Bottom Right -->
     <div class="save-card">
-      <img src="assets/images/ma1.JPG" alt="">
+      <img src="assets/images/ma3.JPG" alt="">
     </div>
 
   </div>
@@ -196,7 +196,7 @@ about:
       <div class="gallery-slide">
         <img src="assets/images/proposal1.jpg" alt="">
         <p>This was February 14, the day Mac finally decided to stop analyzing and just
-        ask Sarah to be his wife. It was simple, intimate and full of heart.</p>
+        ask Sarah to be his wife. </p>
       </div>
       
       <div class="gallery-slide">
@@ -219,21 +219,19 @@ about:
       <div class="gallery-slide">
         <img src="assets/images/denver1.jpg" alt="">
         <p>Our visit to Denver was nothing short of memorable. We had a
-        long ten-hour drive from Bozeman to Denver. The road felt long, 
-        but the time together made it special.</p>
+        long ten-hour drive from Bozeman to Denver. </p>
       </div>
    
      <div class="gallery-slide">
         <img src="assets/images/nash.jpg" alt="">
         <p>This photo was taken on a hotel rooftop with the Nashville
-        skyline behind us. It was a nice break from the busy schedule.</p>
+        skyline behind us. </p>
       </div>
       
       <div class="gallery-slide">
         <img src="assets/images/GoM.jpg" alt="">
         <p>This photo was taken on the Missouri River at the Gates of the
-        Mountains in Helena, Montana. It was such a peaceful day, just 
-        being out on the water and enjoying the scenery. </p>
+        Mountains in Helena, Montana. </p>
       </div>
 
       <div class="gallery-slide">
