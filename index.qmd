@@ -117,9 +117,9 @@ about:
     <h2 data-aos="fade-up">Wedding Details</h2>
     <div class="cards">
       <div class="card" data-aos="fade-up" data-aos-delay="100">
-        <p>May is a special month for us. We both celebrate our birthdays in May,
-        and now we get to celebrate our marriage in May too. It feels like the 
-        month was always meant to be ours.</p>
+        <p>May is a special month for us. We both celebrate our birthdays in May, and now
+        we get to celebrate our marriage in May as well. It has become a chapter that
+        holds some of our most important moments.</p>
       </div>
       <div class="card" data-aos="fade-up" data-aos-delay="200">
         <h3>Ceremony</h3>
