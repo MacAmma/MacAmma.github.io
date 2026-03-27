@@ -159,7 +159,7 @@ about:
     <!-- Bottom Left (Slideshow) -->
     <div class="save-card slideshow">
       <div class="save-slide active">
-        <img src="assets/images/ma2.jpg">
+        <img src="assets/images/ma2.JPG">
       </div>
       <div class="save-slide">
         <img src="assets/images/ma1.JPG">
