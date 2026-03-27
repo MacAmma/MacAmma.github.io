@@ -167,11 +167,17 @@ about:
       <div class="save-slide">
         <img src="assets/images/ma3.JPG">
       </div>
+      <div class="save-slide">
+        <img src="assets/images/ma4.JPG">
+      </div>
+      <div class="save-slide">
+        <img src="assets/images/ma5.JPG">
+      </div>
     </div>
 
     <!-- Bottom Right -->
     <div class="save-card">
-      <img src="assets/images/ma3.JPG" alt="">
+      <img src="assets/images/ma5.JPG" alt="">
     </div>
 
   </div>

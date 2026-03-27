@@ -105,7 +105,7 @@ format:
                   saveIndex = (saveIndex + 1) % saveSlides.length;
                 }
               
-                setInterval(rotateSaveSlides, 2500);
+                setInterval(rotateSaveSlides, 800);
               }
 
               /* =========================
