@@ -29,7 +29,7 @@ about:
   
   <div class="hero-overlay">
     <h1 data-aos="fade-up">Macbeth & Sarah</h1>
-    <p data-aos="fade-up" data-aos-delay="200">May 22, 2026</p>
+    <p data-aos="fade-up" data-aos-delay="200">May 29, 2026</p>
   </div>
   </div>
 </section>
@@ -129,7 +129,7 @@ about:
         </p>
 
        <p>
-       Our civil wedding will be on Friday, May 22, 2026, 
+       Our civil wedding will be on Friday, May 29, 2026, 
        at the Gallatin County District Court, MT, USA.
       </p>
       </div>
