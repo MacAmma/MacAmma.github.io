@@ -1,7 +1,7 @@
 ---
 title: "Our wedding"
 page-layout: custom
-image: "idaho"
+image: ""
 about:
   id: hero-heading
   image-shape: rectangle
@@ -166,6 +166,9 @@ about:
       </div>
       <div class="save-slide">
         <img src="assets/images/ma5.JPG">
+      </div>
+        <div class="save-slide">
+        <img src="assets/images/ma7.JPG">
       </div>
     </div>
 
