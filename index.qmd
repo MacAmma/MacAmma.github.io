@@ -162,13 +162,7 @@ about:
         <img src="assets/images/ma2.JPG">
       </div>
       <div class="save-slide">
-        <img src="assets/images/ma1.JPG">
-      </div>
-      <div class="save-slide">
         <img src="assets/images/ma3.JPG">
-      </div>
-      <div class="save-slide">
-        <img src="assets/images/ma4.JPG">
       </div>
       <div class="save-slide">
         <img src="assets/images/ma5.JPG">
@@ -177,7 +171,7 @@ about:
 
     <!-- Bottom Right -->
     <div class="save-card">
-      <img src="assets/images/ma5.JPG" alt="">
+      <img src="assets/images/ma6.JPG" alt="">
     </div>
 
   </div>
