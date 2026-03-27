@@ -236,8 +236,8 @@ about:
 
       <div class="gallery-slide">
         <img src="assets/images/ASA.jpg" alt="">
-        <p>This was us at MSU African Night in 2025. Matching braids. 
-        No explanation needed.</p>
+        <p>This was us at MSU African Night in 2025. Matching braids.
+        </p>
       </div>
 
       <div class="gallery-slide">
