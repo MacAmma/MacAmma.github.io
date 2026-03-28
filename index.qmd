@@ -1,25 +1,12 @@
 ---
 title: "Our wedding"
 page-layout: custom
+image: ""
 about:
   id: hero-heading
   image-shape: rectangle
   image-width: 20em
   template: trestles
-format:
-  html:
-    meta:
-      - property: og:title
-        content: "Macbeth & Sarah | Our Wedding"
-      - property: og:description
-        content: "Join us as we celebrate our love."
-      - property: og:image
-        content: "https://MacAmma.github.io/assets/images/ma3.jpg"
-      - property: og:type
-        content: website
-      - name: twitter:card
-        content: summary_large_image
-    
 ---
 
 ```{=html}
