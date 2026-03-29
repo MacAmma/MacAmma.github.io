@@ -51,7 +51,7 @@ about:
 
   <div class="story-card">
 
-    <h2>The Data Behind Us</h2>
+    <h2>The Story Behind Us</h2>
 
     <div class="story-slider">
 
