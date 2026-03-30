@@ -116,7 +116,7 @@ about:
       <div class="card" data-aos="fade-up" data-aos-delay="200">
         <h3>Ceremony</h3>
         <p>
-        We will be having our traditional wedding ceremony in Kumasi, Ghana 
+        We will have our traditional wedding ceremony in Kumasi, Ghana 
         on Sunday, May 24, 2026.
         </p>
 
